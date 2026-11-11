@@ -1,15 +1,16 @@
 """Paired comparison of the two arms across one or more Harbor job directories.
 
-  python scripts/analyze.py            # every jobs/tb21-* except tb21-archived-*
+  python scripts/analyze.py            # every job of the study (BENCH_STUDY) except archived ones
 
 For every trial: arm (Harbor agent name), task, reward, exception, agent wall time and
-usage priced by scripts/usage.py. Outputs results/trials.csv and results/summary.md.
+usage priced by scripts/usage.py. Writes trials.csv and summary.md to the study's results
+directory (study 1: results/).
 
 Pairing: a pair is the two arms' trials of a task in the same job, both counted (see
 below). If either arm's trial is excluded, the whole pair is dropped; a later job that
 re-ran the task (`rerun`) supplies it instead. Each task uses its latest complete pair;
-earlier attempts are listed as superseded, never averaged in. tb21-archived-* jobs
-(discarded runs) are not analysed; the budget guard still counts their spend.
+earlier attempts are listed as superseded, never averaged in. <prefix>-archived-* jobs
+(discarded runs) and <prefix>-oracle (reference solutions) are not analysed; the budget guard still counts their spend.
 
 Statistics (stdlib only):
   - pass rate (verifier reward, whatever the agent's exit status): exact two-sided
@@ -38,7 +39,19 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from leak_audit import audit  # noqa: E402
+from study import current  # noqa: E402
 from usage import trial_usage  # noqa: E402
+
+STUDY = current()
+# Studies on public GitHub fixes (SWE-rebench) list each task's upstream repo; their
+# trials are audited for attempts to reach it (scripts/leak_audit.py).
+CATALOG_FILE = STUDY.config_dir / "catalog.json"
+CATALOG = json.loads(CATALOG_FILE.read_text()) if CATALOG_FILE.is_file() else {}
+CHECKS_FILE = STUDY.config_dir / "image_checks.json"
+CHECKS = json.loads(CHECKS_FILE.read_text()) if CHECKS_FILE.is_file() else {}
+REVIEW_FILE = STUDY.config_dir / "upstream_review.json"
+REVIEW = json.loads(REVIEW_FILE.read_text()) if REVIEW_FILE.is_file() else {}
 
 ROOT = Path(__file__).resolve().parent.parent
 ARMS = ("claude-code", "nanocode")
@@ -52,8 +65,8 @@ def infra_status(status: int) -> bool:
     return status in (401, 403, 429) or status >= 500
 
 
-EXCLUDED_BY_HAND = (json.loads((ROOT / "configs/excluded_trials.json").read_text())
-                    if (ROOT / "configs/excluded_trials.json").is_file() else {})
+EXCLUDED_BY_HAND = (json.loads((STUDY.config_dir / "excluded_trials.json").read_text())
+                    if (STUDY.config_dir / "excluded_trials.json").is_file() else {})
 
 
 def counted(r: dict) -> bool:
@@ -72,7 +85,7 @@ def counted(r: dict) -> bool:
 
 
 def job_order(name: str) -> tuple:
-    phases = {"tb21-calibration": 0, "tb21-main": 1, "tb21-main-big": 2}
+    phases = {f"{STUDY.prefix}-{p}": i for i, p in enumerate(("calibration", "main", "main-big"))}
     natural = [int(p) if p.isdigit() else p for p in re.split(r"(\d+)", name)]
     return (phases.get(name, 3), natural)
 B = 20000
@@ -122,7 +135,12 @@ def load(job_dirs: list[Path]) -> list[dict]:
             exc = (d.get("exception_info") or {}).get("exception_type")
             rewards = (d.get("verifier_result") or {}).get("rewards") or {}
             usage = trial_usage(result.parent) or {}
-            rows.append({
+            task = d["task_name"].split("/")[-1]
+            if CATALOG and task not in CATALOG:
+                raise SystemExit(f"{result.parent}: task {task!r} is not in {CATALOG_FILE}")
+            leak = (audit(result.parent, CATALOG[task]["repo"], CHECKS.get(task, {}).get("packages", []))
+                    if task in CATALOG else None)
+            row = {
                 "job": job.name, "trial": d["trial_name"], "arm": d["agent_info"]["name"],
                 "container_oom": any(compose_name(d["trial_name"]) in compose_name(o) for o in ooms),
                 "agent_version": d["agent_info"].get("version"),
@@ -147,7 +165,20 @@ def load(job_dirs: list[Path]) -> list[dict]:
                 "usage_source": usage.get("source"),
                 "priced_by_fallback": usage.get("priced_by_fallback"),
                 "models": json.dumps(sorted(usage.get("models", {}))),
-            })
+            }
+            if CATALOG:  # study 2 only, so study 1's trials.csv keeps its columns
+                unaudited = bool(leak["unreadable"]) or (leak["tool_calls"] == 0 and (row["model_calls"] or 0) > 0)
+                review = REVIEW.get(d["trial_name"], {})
+                row.update({
+                    "upstream_flagged": bool(leak["hits"]) or unaudited,
+                    "upstream_detail": " | ".join(leak["hits"] + leak["unreadable"]
+                                                  + (["no tool calls found in the logs"] if unaudited
+                                                     and not leak["unreadable"] else []))[:1000],
+                    # decided by hand (PROTOCOL); None = flagged but not yet reviewed
+                    "upstream_access": review.get("access") if (leak["hits"] or unaudited) else False,
+                    "upstream_review_note": review.get("note"),
+                })
+            rows.append(row)
     return rows
 
 
@@ -243,11 +274,22 @@ def section(title: str, tasks: list[str], mean) -> list[str]:
 
 
 def main() -> None:
-    jobs = [Path(p) for p in sys.argv[1:]] or [p for p in (ROOT / "jobs").glob("tb21-*") if p.is_dir()]
-    jobs = sorted((j for j in jobs if not j.name.startswith("tb21-archived-")), key=lambda j: job_order(j.name))
+    jobs = [Path(p) for p in sys.argv[1:]] or [p for p in (ROOT / "jobs").glob(f"{STUDY.prefix}-*") if p.is_dir()]
+    skip = (f"{STUDY.prefix}-archived-", f"{STUDY.prefix}-oracle", f"{STUDY.prefix}-smoke")
+    jobs = sorted((j for j in jobs if not j.name.startswith(skip)), key=lambda j: job_order(j.name))
+    other = [j.name for j in jobs if not j.name.startswith(f"{STUDY.prefix}-")]
+    if other:
+        raise SystemExit(f"{other} are not jobs of study {STUDY.name!r} (prefix {STUDY.prefix}-); set BENCH_STUDY")
     rows = load(jobs)
-    out = ROOT / "results"
+    out = STUDY.results_dir
     out.mkdir(exist_ok=True)
+    # Flags are reviewed before rewards are looked at (PROTOCOL): stop before writing any.
+    pending = [r["trial"] for r in rows if r.get("upstream_flagged") and r.get("upstream_access") is None]
+    if pending:
+        raise SystemExit(f"flagged by the upstream-access audit but not reviewed in {REVIEW_FILE}: "
+                         f"{pending}\nList their flagged calls, without rewards, with "
+                         f"`BENCH_STUDY={STUDY.name} python scripts/leak_audit.py --jobs jobs/{STUDY.prefix}-*`, "
+                         "review each and record it (PROTOCOL).")
     with open(out / "trials.csv", "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else ["trial"])
         writer.writeheader()
@@ -275,6 +317,11 @@ def main() -> None:
         vals = [v for v in vals if v is not None]
         return sum(vals) / len(vals) if vals else None
 
+    def mean_access_zero(task: str, arm: str, key: str) -> float | None:
+        if key == "reward" and any(r.get("upstream_access") for r in per[task][arm]):
+            return 0.0
+        return mean(task, arm, key)
+
     lines = ["# Results", "", f"Jobs: {', '.join(j.name for j in jobs)}", "",
              f"Paired tasks: {len(paired)}. Excluded trials (infrastructure errors): {len(excluded)}.", ""]
     for r in excluded:
@@ -300,7 +347,7 @@ def main() -> None:
         lines.append(f"- Claude Code cost from session transcripts / from result event, finished trials: "
                      f"median {median(ratios):.3f}, range {min(ratios):.3f}-{max(ratios):.3f} (n={len(ratios)}). "
                      "Costs of timed-out Claude Code trials come from the transcripts; far from 1 means they are biased.")
-    for oom in sorted((ROOT / "jobs").glob("tb21-*vm-oom.log")) if (ROOT / "jobs").is_dir() else []:
+    for oom in sorted((ROOT / "jobs").glob(f"{STUDY.prefix}-*vm-oom.log")) if (ROOT / "jobs").is_dir() else []:
         text = oom.read_text().strip()
         if text:
             lines.append(f"- VM-level OOM kills in {oom.name}: affected trials must be excluded by hand "
@@ -310,15 +357,73 @@ def main() -> None:
         lines.append("")
     lines += ["model calls = Messages API responses, subagents included, in both arms.", ""]
 
-    selection = json.loads((ROOT / "configs/tasks.json").read_text())
+    selection = json.loads(STUDY.tasks_file.read_text())
     finished = [t for t in paired if all(r["exception"] is None for a in ARMS for r in per[t][a])]
-    subsets = [("all paired tasks", paired),
-               ("primary tasks", [t for t in paired if t in selection["primary"]]),
-               ("sanity tasks", [t for t in paired if t in selection["sanity"]]),
-               ("pairs where both arms finished (no timeout or crash)", finished)]
-    for title, tasks in subsets:
+    if CATALOG:
+        audited = [r for t in paired for a in ARMS for r in per[t][a]]
+        lines.append("## Upstream-access audit")
+        lines.append("")
+        for a in ARMS:
+            arm_rows = [r for r in audited if r["arm"] == a]
+            lines.append(f"- {a}: {sum(r['upstream_flagged'] for r in arm_rows)} trials flagged, "
+                         f"{sum(bool(r['upstream_access']) for r in arm_rows)} confirmed access, "
+                         f"of {len(arm_rows)}")
+        for r in audited:
+            if r["upstream_flagged"]:
+                lines.append(f"- {r['trial']} ({r['arm']}): access={r['upstream_access']} "
+                             f"({r['upstream_review_note']}); calls: {r['upstream_detail']}")
+
+        def reached(t: str) -> bool:
+            return any(r["upstream_access"] for a in ARMS for r in per[t][a])
+        clean = [t for t in paired if not reached(t)]
+        lines += ["", f"Pairs with confirmed upstream access by either arm: {len(paired) - len(clean)} "
+                  "(dropped from the primary subset).", ""]
+        subsets = [("primary: paired tasks without confirmed upstream access", clean),
+                   ("sensitivity: all paired tasks, a trial with confirmed upstream access scored 0", paired,
+                    mean_access_zero),
+                   ("sensitivity: all paired tasks as graded", paired),
+                   ("pairs without confirmed upstream access where both arms finished (no timeout or crash)",
+                    [t for t in finished if t in clean])]
+    else:
+        subsets = [("all paired tasks", paired),
+                   ("primary tasks", [t for t in paired if t in selection["primary"]]),
+                   ("sanity tasks", [t for t in paired if t in selection.get("sanity", [])]),
+                   ("pairs where both arms finished (no timeout or crash)", finished)]
+    for title, tasks, *custom in subsets:
         if tasks:
-            lines += section(title, tasks, mean)
+            lines += section(title, tasks, custom[0] if custom else mean)
+
+    # Agent outcomes per arm over the paired trials (time and cost are censored by these).
+    # Study 2 on (study 1's committed summary predates it).
+    lines += [] if not CATALOG else ["## Agent outcomes per arm (paired trials)", "",
+              "| arm | finished | timed out | other agent error | container memory kill |", "|---|---|---|---|---|"]
+    for a in (ARMS if CATALOG else ()):
+        rs = [r for t in paired for r in per[t][a]]
+        lines.append(f"| {a} | {sum(r['exception'] is None for r in rs)} | "
+                     f"{sum(r['exception'] == 'AgentTimeoutError' for r in rs)} | "
+                     f"{sum(r['exception'] not in (None, 'AgentTimeoutError') for r in rs)} | "
+                     f"{sum(bool(r['container_oom']) for r in rs)} |")
+    if CATALOG:
+        lines.append("")
+
+    if CHECKS:
+        # Repository agent configuration: Claude Code loads CLAUDE.md and .claude/, nanocode
+        # loads AGENTS.md. Descriptive only (PROTOCOL).
+        checks = CHECKS
+
+        def group(task: str) -> str:
+            files = checks.get(task, {}).get("agent_files", [])
+            cc, nc = "CLAUDE.md" in files or ".claude" in files, "AGENTS.md" in files
+            return {(False, False): "none", (True, False): "CLAUDE.md/.claude only",
+                    (False, True): "AGENTS.md only", (True, True): "both"}[(cc, nc)]
+        base = [t for t in paired if not any(r.get("upstream_access") for a in ARMS for r in per[t][a])]
+        lines += ["## By repository agent configuration files (primary subset)", "",
+                  "| files in the repository | tasks | Claude Code solved | nanocode solved |", "|---|---|---|---|"]
+        for g in ("none", "CLAUDE.md/.claude only", "AGENTS.md only", "both"):
+            ts = [t for t in base if group(t) == g]
+            lines.append(f"| {g} | {len(ts)} | {sum(mean(t, 'claude-code', 'reward') == 1 for t in ts)} | "
+                         f"{sum(mean(t, 'nanocode', 'reward') == 1 for t in ts)} |")
+        lines.append("")
 
     total = {a: sum(r["cost_usd"] or 0 for r in rows if r["arm"] == a) for a in ARMS}
     lines += ["", "## Spend (API-equivalent)", "",

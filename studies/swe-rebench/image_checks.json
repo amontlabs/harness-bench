@@ -1,0 +1,865 @@
+{
+ "kubernetes-sigs__kueue-11559": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/kueue",
+  "packages": [
+   "kueueviz",
+   "kueueviz-frontend",
+   "sigs.k8s.io/kueue",
+   "sigs.k8s.io/kueue/hack/tools"
+  ]
+ },
+ "floci-io__floci-1325": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md"
+  ],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/floci",
+  "packages": [
+   "compat-cdk",
+   "floci-compatibility-tests-typescript",
+   "quarkus-bom",
+   "sdk-test-rust"
+  ]
+ },
+ "raullenchai__Rapid-MLX-426": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/Rapid-MLX",
+  "packages": [
+   "rapid-mlx"
+  ]
+ },
+ "astral-sh__ruff-25414": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/ruff",
+  "packages": [
+   "py-fuzzer",
+   "ruff",
+   "ruff-ecosystem",
+   "ruff-fuzz",
+   "ruff_annotate_snippets",
+   "ruff_benchmark",
+   "ruff_cache",
+   "ruff_db",
+   "ruff_dev",
+   "ruff_diagnostics",
+   "ruff_formatter",
+   "ruff_graph",
+   "ruff_index",
+   "ruff_linter",
+   "ruff_macros",
+   "ruff_markdown",
+   "ruff_mdtest",
+   "ruff_memory_usage",
+   "ruff_notebook",
+   "ruff_options_metadata",
+   "ruff_python_ast",
+   "ruff_python_ast_integration_tests",
+   "ruff_python_codegen",
+   "ruff_python_formatter",
+   "ruff_python_importer",
+   "ruff_python_index",
+   "ruff_python_literal",
+   "ruff_python_parser",
+   "ruff_python_semantic",
+   "ruff_python_stdlib",
+   "ruff_python_trivia",
+   "ruff_python_trivia_integration_tests",
+   "ruff_server",
+   "ruff_source_file",
+   "ruff_text_size",
+   "ruff_wasm"
+  ]
+ },
+ "ueberdosis__tiptap-7887": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/tiptap",
+  "packages": [
+   "@tiptap/core",
+   "@tiptap/extension-audio",
+   "@tiptap/extension-blockquote",
+   "@tiptap/extension-bold",
+   "@tiptap/extension-bubble-menu",
+   "@tiptap/extension-bullet-list",
+   "@tiptap/extension-character-count",
+   "@tiptap/extension-code",
+   "@tiptap/extension-code-block",
+   "@tiptap/extension-code-block-lowlight",
+   "@tiptap/extension-collaboration",
+   "@tiptap/extension-collaboration-caret",
+   "@tiptap/extension-color",
+   "@tiptap/extension-details",
+   "@tiptap/extension-document",
+   "@tiptap/extension-drag-handle",
+   "@tiptap/extension-drag-handle-react",
+   "@tiptap/extension-drag-handle-vue-2",
+   "@tiptap/extension-drag-handle-vue-3",
+   "@tiptap/extension-dropcursor",
+   "@tiptap/extension-emoji",
+   "@tiptap/extension-file-handler",
+   "@tiptap/extension-floating-menu",
+   "@tiptap/extension-focus",
+   "@tiptap/extension-font-family",
+   "@tiptap/extension-gapcursor",
+   "@tiptap/extension-hard-break",
+   "@tiptap/extension-heading",
+   "@tiptap/extension-highlight",
+   "@tiptap/extension-history",
+   "@tiptap/extension-horizontal-rule",
+   "@tiptap/extension-image",
+   "@tiptap/extension-invisible-characters",
+   "@tiptap/extension-italic",
+   "@tiptap/extension-link",
+   "@tiptap/extension-list",
+   "@tiptap/extension-list-item",
+   "@tiptap/extension-list-keymap",
+   "@tiptap/extension-mathematics",
+   "@tiptap/extension-mention"
+  ]
+ },
+ "tailscale__tailscale-19847": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/tailscale",
+  "packages": [
+   "tailscale.com",
+   "tsconnect",
+   "webclient"
+  ]
+ },
+ "apache__pulsar-25793": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/pulsar",
+  "packages": [
+   "github.com/apache/pulsar/pulsar-function-go"
+  ]
+ },
+ "marimo-team__marimo-9626": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/marimo",
+  "packages": [
+   "@marimo-team/frontend",
+   "@marimo-team/llm-info",
+   "@marimo-team/lsp",
+   "@marimo-team/marimo-api",
+   "@marimo-team/smart-cells",
+   "@marimo-team/tsconfig",
+   "marimo",
+   "marimo_docs"
+  ]
+ },
+ "ubugeeei-prod__vize-1508": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/vize",
+  "packages": [
+   "@vize/bench",
+   "@vizejs/fresco",
+   "@vizejs/fresco-native",
+   "@vizejs/musea-mcp-server",
+   "@vizejs/musea-nuxt",
+   "@vizejs/native",
+   "@vizejs/nuxt",
+   "@vizejs/rspack-plugin",
+   "@vizejs/unplugin",
+   "@vizejs/vite-plugin",
+   "@vizejs/vite-plugin-musea",
+   "@vizejs/wasm",
+   "oxlint-plugin-vize",
+   "rspack-vize-plugin-example",
+   "vite-plugin-vize-example",
+   "vize",
+   "vize-art",
+   "vize-workspace",
+   "vize-zed-extension",
+   "vize_armature",
+   "vize_atelier_core",
+   "vize_atelier_dom",
+   "vize_atelier_jsx",
+   "vize_atelier_sfc",
+   "vize_atelier_ssr",
+   "vize_atelier_vapor",
+   "vize_canon",
+   "vize_carton",
+   "vize_croquis",
+   "vize_croquis_cf",
+   "vize_curator",
+   "vize_fresco",
+   "vize_glyph",
+   "vize_maestro",
+   "vize_musea",
+   "vize_patina",
+   "vize_relief",
+   "vize_vitrine"
+  ]
+ },
+ "mui__base-ui-4903": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/base-ui",
+  "packages": [
+   "@base-ui/monorepo",
+   "@base-ui/react",
+   "@base-ui/utils",
+   "base-ui-playground-vite-app"
+  ]
+ },
+ "gotd__td-1759": {
+  "git_clean": true,
+  "agent_files": [
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/td",
+  "packages": [
+   "github.com/gotd/td",
+   "github.com/gotd/td/_tools"
+  ]
+ },
+ "kestra-io__kestra-16119": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/kestra",
+  "packages": [
+   "@kestra-io/design-system",
+   "@kestra-io/topology",
+   "kestra"
+  ]
+ },
+ "HKUDS__nanobot-4129": {
+  "git_clean": true,
+  "agent_files": [
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/nanobot",
+  "packages": [
+   "nanobot-ai",
+   "nanobot-webui",
+   "nanobot-whatsapp-bridge"
+  ]
+ },
+ "withcoral__coral-1143": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/coral",
+  "packages": [
+   "coral-api",
+   "coral-app",
+   "coral-auth-aws",
+   "coral-cli",
+   "coral-client",
+   "coral-engine",
+   "coral-mcp",
+   "coral-spec",
+   "coral-ui"
+  ]
+ },
+ "vuejs__core-14877": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/core",
+  "packages": [
+   "@vue/compat",
+   "@vue/compiler-core",
+   "@vue/compiler-dom",
+   "@vue/compiler-sfc",
+   "@vue/compiler-ssr",
+   "@vue/reactivity",
+   "@vue/runtime-core",
+   "@vue/runtime-dom",
+   "@vue/runtime-test",
+   "@vue/server-renderer",
+   "@vue/shared",
+   "@vue/template-explorer",
+   "dts-built-test",
+   "dts-test",
+   "vite-debug",
+   "vue"
+  ]
+ },
+ "rest-sh__restish-337": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/restish",
+  "packages": [
+   "github.com/rest-sh/restish/v2",
+   "restish-docs-hugo"
+  ]
+ },
+ "apache__hugegraph-3037": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md"
+  ],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/hugegraph",
+  "packages": [
+   "hg-pd-cli",
+   "hg-pd-client",
+   "hg-pd-common",
+   "hg-pd-core",
+   "hg-pd-dist",
+   "hg-pd-grpc",
+   "hg-pd-service",
+   "hg-pd-test",
+   "hg-store-cli",
+   "hg-store-client",
+   "hg-store-common",
+   "hg-store-core",
+   "hg-store-dist",
+   "hg-store-grpc",
+   "hg-store-node",
+   "hg-store-rocksdb",
+   "hg-store-test",
+   "hugegraph",
+   "hugegraph-api",
+   "hugegraph-cassandra",
+   "hugegraph-cluster-test",
+   "hugegraph-clustertest-dist",
+   "hugegraph-clustertest-test",
+   "hugegraph-common",
+   "hugegraph-core",
+   "hugegraph-dist",
+   "hugegraph-example",
+   "hugegraph-hbase",
+   "hugegraph-hstore",
+   "hugegraph-mysql",
+   "hugegraph-palo",
+   "hugegraph-postgresql",
+   "hugegraph-rocksdb",
+   "hugegraph-rpc",
+   "hugegraph-scylladb",
+   "hugegraph-test",
+   "install-dist"
+  ]
+ },
+ "microsoft__apm-1553": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/apm",
+  "packages": [
+   "apm-cli"
+  ]
+ },
+ "fallow-rs__fallow-913": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/fallow",
+  "packages": [
+   "@fallow-cli/darwin-arm64",
+   "@fallow-cli/darwin-x64",
+   "@fallow-cli/fallow-node",
+   "@fallow-cli/linux-arm64-gnu",
+   "@fallow-cli/linux-arm64-musl",
+   "@fallow-cli/linux-x64-gnu",
+   "@fallow-cli/linux-x64-musl",
+   "@fallow-cli/win32-arm64-msvc",
+   "@fallow-cli/win32-x64-msvc",
+   "fallow",
+   "fallow-benchmarks",
+   "fallow-cli",
+   "fallow-config",
+   "fallow-core",
+   "fallow-extract",
+   "fallow-fuzz",
+   "fallow-graph",
+   "fallow-license",
+   "fallow-lsp",
+   "fallow-mcp",
+   "fallow-node",
+   "fallow-repo-tools",
+   "fallow-types",
+   "fallow-v8-coverage",
+   "fallow-vscode",
+   "fallow_zed",
+   "my-app"
+  ]
+ },
+ "tashfeenahmed__freellmapi-289": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/freellmapi",
+  "packages": [
+   "@freellmapi/client",
+   "@freellmapi/server",
+   "@freellmapi/shared",
+   "freellmapi",
+   "freellmapi-desktop"
+  ]
+ },
+ "mvanhorn__cli-printing-press-2086": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/cli-printing-press",
+  "packages": [
+   "github.com/mvanhorn/cli-printing-press/v4"
+  ]
+ },
+ "mozilla-ai__any-llm-1121": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/any-llm",
+  "packages": [
+   "any-llm-sdk"
+  ]
+ },
+ "tursodatabase__turso-7117": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/turso",
+  "packages": [
+   "@tursodatabase/serverless",
+   "@tursodatabase/sync-react-native",
+   "antithesis-tests",
+   "differential-fuzzer",
+   "encryption-throughput",
+   "limbo",
+   "limbo-connection-benchmark",
+   "limbo-fuzz",
+   "limbo-multitenancy",
+   "limbo_completion",
+   "limbo_crypto",
+   "limbo_csv",
+   "limbo_fuzzy",
+   "limbo_ipaddr",
+   "limbo_percentile",
+   "limbo_regexp",
+   "limbo_sim",
+   "limbo_sqlite_test_ext",
+   "memory-benchmark",
+   "mobibench-plot",
+   "py-turso",
+   "pyturso",
+   "rusqlite-connection-benchmark",
+   "rusqlite-multitenancy",
+   "simulator-docker-runner",
+   "sql_gen",
+   "sql_gen_macros",
+   "sql_gen_prop",
+   "sql_generation",
+   "sqlancer-runner",
+   "stress-go",
+   "test-runner",
+   "tpc-h-plot",
+   "turso",
+   "turso-dbhash",
+   "turso-dotnet",
+   "turso-integration-tests",
+   "turso-java",
+   "turso-perf"
+  ]
+ },
+ "promptfoo__promptfoo-9313": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude",
+   "AGENTS.md",
+   "CLAUDE.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/promptfoo",
+  "packages": [
+   "@promptfoo/code-scan-action",
+   "github.com/promptfoo/golang",
+   "promptfoo"
+  ]
+ },
+ "microsoft__waza-247": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/waza",
+  "packages": [
+   "github.com/coreai-microsoft/adc-sdk-go",
+   "github.com/microsoft/waza"
+  ]
+ },
+ "helidon-io__helidon-11979": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/helidon",
+  "packages": [
+   "helidon",
+   "helidon-all",
+   "helidon-applications",
+   "helidon-applications-project",
+   "helidon-archetypes",
+   "helidon-archetypes-legacy-project",
+   "helidon-archetypes-project",
+   "helidon-bare-se",
+   "helidon-bom",
+   "helidon-builder-api",
+   "helidon-builder-codegen",
+   "helidon-builder-codegen-jackson",
+   "helidon-builder-project",
+   "helidon-bundles-apt",
+   "helidon-bundles-config",
+   "helidon-bundles-project",
+   "helidon-bundles-security",
+   "helidon-codegen",
+   "helidon-codegen-api-stability",
+   "helidon-codegen-api-stability-enforcer",
+   "helidon-codegen-apt",
+   "helidon-codegen-class-model",
+   "helidon-codegen-compiler",
+   "helidon-codegen-helidon-copyright",
+   "helidon-codegen-project",
+   "helidon-codegen-scan",
+   "helidon-codegen-testing",
+   "helidon-common",
+   "helidon-common-buffers",
+   "helidon-common-concurrency-limits",
+   "helidon-common-concurrency-project",
+   "helidon-common-configurable",
+   "helidon-common-context",
+   "helidon-common-context-http",
+   "helidon-common-context-project",
+   "helidon-common-crypto",
+   "helidon-common-features",
+   "helidon-common-features-api",
+   "helidon-common-features-codegen",
+   "helidon-common-features-metadata"
+  ]
+ },
+ "nesquena__hermes-webui-3069": {
+  "git_clean": true,
+  "agent_files": [
+   "AGENTS.md"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/hermes-webui",
+  "packages": []
+ },
+ "ivov__lisette-491": {
+  "git_clean": true,
+  "agent_files": [],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "git"
+  ],
+  "workdir": "/lisette",
+  "packages": [
+   "github.com/ivov/lisette/bindgen",
+   "github.com/ivov/lisette/prelude",
+   "lisette",
+   "lisette-deps",
+   "lisette-diagnostics",
+   "lisette-emit",
+   "lisette-format",
+   "lisette-fuzz",
+   "lisette-lsp",
+   "lisette-semantics",
+   "lisette-stdlib",
+   "lisette-syntax",
+   "lisette-wasm",
+   "tree-sitter-lisette",
+   "zed_lisette"
+  ]
+ },
+ "fathah__hermes-desktop-268": {
+  "git_clean": true,
+  "agent_files": [
+   ".claude"
+  ],
+  "os": "debian-12",
+  "tools": [
+   "apt-get",
+   "curl",
+   "wget",
+   "node",
+   "npm",
+   "git"
+  ],
+  "workdir": "/hermes-desktop",
+  "packages": [
+   "hermes-desktop"
+  ]
+ },
+ "ArcadeData__arcadedb-4281": {
+  "git_clean": true,
+  "agent_files": [
+   "CLAUDE.md"
+  ],
+  "os": "ubuntu-24.04",
+  "tools": [
+   "apt-get",
+   "git"
+  ],
+  "workdir": "/arcadedb",
+  "packages": [
+   "arcadedb-bolt",
+   "arcadedb-console",
+   "arcadedb-coverage",
+   "arcadedb-e2e",
+   "arcadedb-e2e-ha",
+   "arcadedb-e2e-python",
+   "arcadedb-e2e-tests",
+   "arcadedb-embedded",
+   "arcadedb-engine",
+   "arcadedb-graphql",
+   "arcadedb-gremlin",
+   "arcadedb-grpc",
+   "arcadedb-grpc-client",
+   "arcadedb-grpcw",
+   "arcadedb-ha-raft",
+   "arcadedb-integration",
+   "arcadedb-load-tests",
+   "arcadedb-metrics",
+   "arcadedb-mongodbw",
+   "arcadedb-network",
+   "arcadedb-package",
+   "arcadedb-postgresw",
+   "arcadedb-redisw",
+   "arcadedb-server",
+   "arcadedb-studio",
+   "maven-resources-plugin"
+  ]
+ }
+}

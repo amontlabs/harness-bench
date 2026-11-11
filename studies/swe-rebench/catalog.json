@@ -1,0 +1,1112 @@
+{
+ "ArcadeData__arcadedb-4281": {
+  "repo": "ArcadeData/arcadedb",
+  "pull_number": 4281,
+  "pr_url": "https://github.com/ArcadeData/arcadedb/pull/4281",
+  "issue_number": 4275,
+  "created_at": "2026-05-22",
+  "base_commit": "8d169627b2cab041e346e0b79569f734ed94267d",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/arcadedata__arcadedb-4281:v0.1.0"
+ },
+ "ArcadeData__arcadedb-4411": {
+  "repo": "ArcadeData/arcadedb",
+  "pull_number": 4411,
+  "pr_url": "https://github.com/ArcadeData/arcadedb/pull/4411",
+  "issue_number": 4389,
+  "created_at": "2026-05-29",
+  "base_commit": "7149cfc1369df9b2cf3987e036e79f60cb004c96",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/arcadedata__arcadedb-4411:v0.1.0"
+ },
+ "ArcadeData__arcadedb-4455": {
+  "repo": "ArcadeData/arcadedb",
+  "pull_number": 4455,
+  "pr_url": "https://github.com/ArcadeData/arcadedb/pull/4455",
+  "issue_number": 4453,
+  "created_at": "2026-06-01",
+  "base_commit": "cbf9008a0c8f757b400a5bc7b56b83b8fa8058fa",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/arcadedata__arcadedb-4455:v0.1.0"
+ },
+ "Gentleman-Programming__gentle-ai-595": {
+  "repo": "Gentleman-Programming/gentle-ai",
+  "pull_number": 595,
+  "pr_url": "https://github.com/Gentleman-Programming/gentle-ai/pull/595",
+  "issue_number": 589,
+  "created_at": "2026-05-20",
+  "base_commit": "36051a1b41d879b1bf76f4aa9aa984d74e54c26d",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/gentleman-programming__gentle-ai-595:v0.1.0"
+ },
+ "HKUDS__nanobot-4048": {
+  "repo": "HKUDS/nanobot",
+  "pull_number": 4048,
+  "pr_url": "https://github.com/HKUDS/nanobot/pull/4048",
+  "issue_number": 3006,
+  "created_at": "2026-05-29",
+  "base_commit": "3a420136bbce81f80065b3edfc2dcc8f5ef0fdcb",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/hkuds__nanobot-4048:v0.1.0"
+ },
+ "HKUDS__nanobot-4129": {
+  "repo": "HKUDS/nanobot",
+  "pull_number": 4129,
+  "pr_url": "https://github.com/HKUDS/nanobot/pull/4129",
+  "issue_number": 4128,
+  "created_at": "2026-06-01",
+  "base_commit": "9ecd25bca1e6a6abf0f621640d36b1e722965a71",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/hkuds__nanobot-4129:v0.1.0"
+ },
+ "HKUDS__nanobot-4274": {
+  "repo": "HKUDS/nanobot",
+  "pull_number": 4274,
+  "pr_url": "https://github.com/HKUDS/nanobot/pull/4274",
+  "issue_number": 4259,
+  "created_at": "2026-06-10",
+  "base_commit": "7186039be13dba487d24f2a78031bd94701c802f",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/hkuds__nanobot-4274:v0.1.0"
+ },
+ "Martian-Engineering__lossless-claw-814": {
+  "repo": "Martian-Engineering/lossless-claw",
+  "pull_number": 814,
+  "pr_url": "https://github.com/Martian-Engineering/lossless-claw/pull/814",
+  "issue_number": 810,
+  "created_at": "2026-06-03",
+  "base_commit": "c80c57f39e658e1b207b7bb7fa51cf0a629cf856",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/martian-engineering__lossless-claw-814:v0.1.0"
+ },
+ "PerryTS__perry-3982": {
+  "repo": "PerryTS/perry",
+  "pull_number": 3982,
+  "pr_url": "https://github.com/PerryTS/perry/pull/3982",
+  "issue_number": 3896,
+  "created_at": "2026-06-01",
+  "base_commit": "5ca70f1b90347607af544e5ec8ff31f6863378af",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/perryts__perry-3982:v0.1.0"
+ },
+ "Soju06__codex-lb-744": {
+  "repo": "Soju06/codex-lb",
+  "pull_number": 744,
+  "pr_url": "https://github.com/Soju06/codex-lb/pull/744",
+  "issue_number": 664,
+  "created_at": "2026-05-21",
+  "base_commit": "fc64da1f21efafc8b49373707aa5f0fcc0a406a0",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/soju06__codex-lb-744:v0.1.0"
+ },
+ "agno-agi__agno-8148": {
+  "repo": "agno-agi/agno",
+  "pull_number": 8148,
+  "pr_url": "https://github.com/agno-agi/agno/pull/8148",
+  "issue_number": 8135,
+  "created_at": "2026-05-28",
+  "base_commit": "cc97d85ab82b8f90950164abe1e3a19b2af0eb9a",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/agno-agi__agno-8148:v0.1.0"
+ },
+ "apache__dubbo-go-3357": {
+  "repo": "apache/dubbo-go",
+  "pull_number": 3357,
+  "pr_url": "https://github.com/apache/dubbo-go/pull/3357",
+  "issue_number": 3349,
+  "created_at": "2026-05-30",
+  "base_commit": "fd79da266ed61726ec0ef0e874e2d72cc2bd2a76",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/apache__dubbo-go-3357:v0.1.0"
+ },
+ "apache__hugegraph-3037": {
+  "repo": "apache/hugegraph",
+  "pull_number": 3037,
+  "pr_url": "https://github.com/apache/hugegraph/pull/3037",
+  "issue_number": 2995,
+  "created_at": "2026-05-24",
+  "base_commit": "1f61c4839aaee09063f4a6ee17d831dc542fbe9d",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/apache__hugegraph-3037:v0.1.0"
+ },
+ "apache__pulsar-25793": {
+  "repo": "apache/pulsar",
+  "pull_number": 25793,
+  "pr_url": "https://github.com/apache/pulsar/pull/25793",
+  "issue_number": 25859,
+  "created_at": "2026-05-16",
+  "base_commit": "7fc00c02adb973e8bc3f7e7df65eccd1e6517b7f",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/apache__pulsar-25793:v0.1.0"
+ },
+ "apache__pulsar-25865": {
+  "repo": "apache/pulsar",
+  "pull_number": 25865,
+  "pr_url": "https://github.com/apache/pulsar/pull/25865",
+  "issue_number": 25708,
+  "created_at": "2026-05-24",
+  "base_commit": "09035ffddada146f3ef014777ee5e5766f01f3f2",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/apache__pulsar-25865:v0.1.0"
+ },
+ "apache__pulsar-25953": {
+  "repo": "apache/pulsar",
+  "pull_number": 25953,
+  "pr_url": "https://github.com/apache/pulsar/pull/25953",
+  "issue_number": 25954,
+  "created_at": "2026-06-06",
+  "base_commit": "141438756c1bae463c26c4f2f7ee77eb6353c315",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/apache__pulsar-25953:v0.1.0"
+ },
+ "astral-sh__ruff-25414": {
+  "repo": "astral-sh/ruff",
+  "pull_number": 25414,
+  "pr_url": "https://github.com/astral-sh/ruff/pull/25414",
+  "issue_number": 25386,
+  "created_at": "2026-05-27",
+  "base_commit": "6aaa91ac2b269df1414954ccd5134f0e6f5c6d30",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/astral-sh__ruff-25414:v0.1.0"
+ },
+ "astral-sh__ruff-25567": {
+  "repo": "astral-sh/ruff",
+  "pull_number": 25567,
+  "pr_url": "https://github.com/astral-sh/ruff/pull/25567",
+  "issue_number": 3518,
+  "created_at": "2026-06-03",
+  "base_commit": "2965c98cb5b4fbce65aa9a271da1c38b6730ba80",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/astral-sh__ruff-25567:v0.1.0"
+ },
+ "better-auth__better-auth-10070": {
+  "repo": "better-auth/better-auth",
+  "pull_number": 10070,
+  "pr_url": "https://github.com/better-auth/better-auth/pull/10070",
+  "issue_number": 9869,
+  "created_at": "2026-06-15",
+  "base_commit": "840788502a13d6fa4aa4540b930ddb4a99dc1ed6",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/better-auth__better-auth-10070:v0.1.0"
+ },
+ "better-auth__better-auth-9756": {
+  "repo": "better-auth/better-auth",
+  "pull_number": 9756,
+  "pr_url": "https://github.com/better-auth/better-auth/pull/9756",
+  "issue_number": 7271,
+  "created_at": "2026-05-26",
+  "base_commit": "8907c7df9cf330f36ded6fa3cd588faf6ca8e568",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/better-auth__better-auth-9756:v0.1.0"
+ },
+ "cloudflare__vinext-1371": {
+  "repo": "cloudflare/vinext",
+  "pull_number": 1371,
+  "pr_url": "https://github.com/cloudflare/vinext/pull/1371",
+  "issue_number": 1357,
+  "created_at": "2026-05-20",
+  "base_commit": "5748be3ba5f86f1e9e538b23c79a5a0a4153a0af",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/cloudflare__vinext-1371:v0.1.0"
+ },
+ "cloudflare__vinext-1574": {
+  "repo": "cloudflare/vinext",
+  "pull_number": 1574,
+  "pr_url": "https://github.com/cloudflare/vinext/pull/1574",
+  "issue_number": 1461,
+  "created_at": "2026-05-22",
+  "base_commit": "97c11cdc374d380b27ea172f8a1410ab6f87c261",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/cloudflare__vinext-1574:v0.1.0"
+ },
+ "cloudflare__vinext-1837": {
+  "repo": "cloudflare/vinext",
+  "pull_number": 1837,
+  "pr_url": "https://github.com/cloudflare/vinext/pull/1837",
+  "issue_number": 1548,
+  "created_at": "2026-06-08",
+  "base_commit": "6005541c195b84d5a473c7f32421f16acafeed24",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/cloudflare__vinext-1837:v0.1.0"
+ },
+ "cloudnative-pg__cloudnative-pg-10747": {
+  "repo": "cloudnative-pg/cloudnative-pg",
+  "pull_number": 10747,
+  "pr_url": "https://github.com/cloudnative-pg/cloudnative-pg/pull/10747",
+  "issue_number": 10622,
+  "created_at": "2026-05-20",
+  "base_commit": "1d61760e614ef2317f2783c237bf09310d968855",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/cloudnative-pg__cloudnative-pg-10747:v0.1.0"
+ },
+ "danny-avila__LibreChat-13166": {
+  "repo": "danny-avila/LibreChat",
+  "pull_number": 13166,
+  "pr_url": "https://github.com/danny-avila/LibreChat/pull/13166",
+  "issue_number": 13162,
+  "created_at": "2026-05-17",
+  "base_commit": "89d10a0b837b603d9a4862762cb5e91fa2724966",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/danny-avila__librechat-13166:v0.1.0"
+ },
+ "docker__docker-agent-2992": {
+  "repo": "docker/docker-agent",
+  "pull_number": 2992,
+  "pr_url": "https://github.com/docker/docker-agent/pull/2992",
+  "issue_number": 1544,
+  "created_at": "2026-06-03",
+  "base_commit": "2b369cebe7b8d3bc80f135a4498995d9d57da61a",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/docker__docker-agent-2992:v0.1.0"
+ },
+ "facebook__lexical-8676": {
+  "repo": "facebook/lexical",
+  "pull_number": 8676,
+  "pr_url": "https://github.com/facebook/lexical/pull/8676",
+  "issue_number": 5072,
+  "created_at": "2026-06-11",
+  "base_commit": "e40f2836d2c960b68ee34ede12a16915c2a16cf0",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/facebook__lexical-8676:v0.1.0"
+ },
+ "fallow-rs__fallow-762": {
+  "repo": "fallow-rs/fallow",
+  "pull_number": 762,
+  "pr_url": "https://github.com/fallow-rs/fallow/pull/762",
+  "issue_number": 752,
+  "created_at": "2026-05-28",
+  "base_commit": "7d66ae525b5387a8bf41378a9fa42aaa286df16e",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/fallow-rs__fallow-762:v0.1.0"
+ },
+ "fallow-rs__fallow-821": {
+  "repo": "fallow-rs/fallow",
+  "pull_number": 821,
+  "pr_url": "https://github.com/fallow-rs/fallow/pull/821",
+  "issue_number": 820,
+  "created_at": "2026-05-31",
+  "base_commit": "cab4ab3dacdefa41a43f2172801f189ea42b5df4",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/fallow-rs__fallow-821:v0.1.0"
+ },
+ "fallow-rs__fallow-824": {
+  "repo": "fallow-rs/fallow",
+  "pull_number": 824,
+  "pr_url": "https://github.com/fallow-rs/fallow/pull/824",
+  "issue_number": 823,
+  "created_at": "2026-05-31",
+  "base_commit": "e4f488b6130e5514e00850cc64bc7aa00baa846a",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/fallow-rs__fallow-824:v0.1.0"
+ },
+ "fallow-rs__fallow-913": {
+  "repo": "fallow-rs/fallow",
+  "pull_number": 913,
+  "pr_url": "https://github.com/fallow-rs/fallow/pull/913",
+  "issue_number": 911,
+  "created_at": "2026-06-03",
+  "base_commit": "ceb814de08396de70d02b393f54be8b358dba1cb",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/fallow-rs__fallow-913:v0.1.0"
+ },
+ "fathah__hermes-desktop-249": {
+  "repo": "fathah/hermes-desktop",
+  "pull_number": 249,
+  "pr_url": "https://github.com/fathah/hermes-desktop/pull/249",
+  "issue_number": 240,
+  "created_at": "2026-05-18",
+  "base_commit": "3b757ddbb80eedbad3c0a6c8bd96514bc82e131f",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/fathah__hermes-desktop-249:v0.1.0"
+ },
+ "fathah__hermes-desktop-268": {
+  "repo": "fathah/hermes-desktop",
+  "pull_number": 268,
+  "pr_url": "https://github.com/fathah/hermes-desktop/pull/268",
+  "issue_number": 266,
+  "created_at": "2026-05-19",
+  "base_commit": "317bf0e1840bc119d99877a07da3df5515720a82",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/fathah__hermes-desktop-268:v0.1.0"
+ },
+ "floci-io__floci-1021": {
+  "repo": "floci-io/floci",
+  "pull_number": 1021,
+  "pr_url": "https://github.com/floci-io/floci/pull/1021",
+  "issue_number": 1020,
+  "created_at": "2026-05-24",
+  "base_commit": "5772e49470772a2c32dc6ac1b3eeea15f2e5a450",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1021:v0.1.0"
+ },
+ "floci-io__floci-1032": {
+  "repo": "floci-io/floci",
+  "pull_number": 1032,
+  "pr_url": "https://github.com/floci-io/floci/pull/1032",
+  "issue_number": 874,
+  "created_at": "2026-05-25",
+  "base_commit": "bd5ba4a22445ebf35f67c02072f5adb4905c8e81",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1032:v0.1.0"
+ },
+ "floci-io__floci-1142": {
+  "repo": "floci-io/floci",
+  "pull_number": 1142,
+  "pr_url": "https://github.com/floci-io/floci/pull/1142",
+  "issue_number": 1141,
+  "created_at": "2026-06-02",
+  "base_commit": "e48681468634a8c1f9d7a61b0567a37f365452d4",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1142:v0.1.0"
+ },
+ "floci-io__floci-1209": {
+  "repo": "floci-io/floci",
+  "pull_number": 1209,
+  "pr_url": "https://github.com/floci-io/floci/pull/1209",
+  "issue_number": 1203,
+  "created_at": "2026-06-06",
+  "base_commit": "3894ffcf8ad80fe5df33f842fa9c22809510e1b3",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1209:v0.1.0"
+ },
+ "floci-io__floci-1235": {
+  "repo": "floci-io/floci",
+  "pull_number": 1235,
+  "pr_url": "https://github.com/floci-io/floci/pull/1235",
+  "issue_number": 1231,
+  "created_at": "2026-06-08",
+  "base_commit": "94a8bdaca1b58da108107c8b08c78538052e2736",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1235:v0.1.0"
+ },
+ "floci-io__floci-1325": {
+  "repo": "floci-io/floci",
+  "pull_number": 1325,
+  "pr_url": "https://github.com/floci-io/floci/pull/1325",
+  "issue_number": 1320,
+  "created_at": "2026-06-13",
+  "base_commit": "a7b0826c96365115c713526a3b3ed0b50a24099f",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/floci-io__floci-1325:v0.1.0"
+ },
+ "gleam-lang__gleam-5797": {
+  "repo": "gleam-lang/gleam",
+  "pull_number": 5797,
+  "pr_url": "https://github.com/gleam-lang/gleam/pull/5797",
+  "issue_number": 5796,
+  "created_at": "2026-06-03",
+  "base_commit": "d11fd2a0085ecb36ab5f7073229eac0cb40b5ad6",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/gleam-lang__gleam-5797:v0.1.0"
+ },
+ "gleam-lang__gleam-5798": {
+  "repo": "gleam-lang/gleam",
+  "pull_number": 5798,
+  "pr_url": "https://github.com/gleam-lang/gleam/pull/5798",
+  "issue_number": 5700,
+  "created_at": "2026-06-03",
+  "base_commit": "50c3557b922195a6a1fffc71b180fa23ee7ffb43",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/gleam-lang__gleam-5798:v0.1.0"
+ },
+ "gotd__td-1759": {
+  "repo": "gotd/td",
+  "pull_number": 1759,
+  "pr_url": "https://github.com/gotd/td/pull/1759",
+  "issue_number": 189,
+  "created_at": "2026-06-11",
+  "base_commit": "667a066e54da308f74fb1e4ad93f9577767ed983",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/gotd__td-1759:v0.1.0"
+ },
+ "harbor-framework__harbor-1764": {
+  "repo": "harbor-framework/harbor",
+  "pull_number": 1764,
+  "pr_url": "https://github.com/harbor-framework/harbor/pull/1764",
+  "issue_number": 1761,
+  "created_at": "2026-05-30",
+  "base_commit": "eecd142931b36f9a4e857265c672066e243fda20",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/harbor-framework__harbor-1764:v0.1.0"
+ },
+ "helidon-io__helidon-11979": {
+  "repo": "helidon-io/helidon",
+  "pull_number": 11979,
+  "pr_url": "https://github.com/helidon-io/helidon/pull/11979",
+  "issue_number": 11939,
+  "created_at": "2026-05-18",
+  "base_commit": "b23639c6f553c908e7d963e75c4a4a587d6581d9",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/helidon-io__helidon-11979:v0.1.0"
+ },
+ "intellectronica__ruler-556": {
+  "repo": "intellectronica/ruler",
+  "pull_number": 556,
+  "pr_url": "https://github.com/intellectronica/ruler/pull/556",
+  "issue_number": 540,
+  "created_at": "2026-06-05",
+  "base_commit": "95642fc61c1ec5626142bb77247017f2c9390231",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/intellectronica__ruler-556:v0.1.0"
+ },
+ "ivov__lisette-491": {
+  "repo": "ivov/lisette",
+  "pull_number": 491,
+  "pr_url": "https://github.com/ivov/lisette/pull/491",
+  "issue_number": 488,
+  "created_at": "2026-05-25",
+  "base_commit": "04a8a2bdcf72775d24317428a947b17ff1c34f04",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ivov__lisette-491:v0.1.0"
+ },
+ "ivov__lisette-627": {
+  "repo": "ivov/lisette",
+  "pull_number": 627,
+  "pr_url": "https://github.com/ivov/lisette/pull/627",
+  "issue_number": 623,
+  "created_at": "2026-06-06",
+  "base_commit": "127d4e1e79f1bf6f25ce06211eae7c0925c509e4",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ivov__lisette-627:v0.1.0"
+ },
+ "ivov__lisette-657": {
+  "repo": "ivov/lisette",
+  "pull_number": 657,
+  "pr_url": "https://github.com/ivov/lisette/pull/657",
+  "issue_number": 653,
+  "created_at": "2026-06-08",
+  "base_commit": "b2a14786f669de658d0456966ca0553076e314e0",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ivov__lisette-657:v0.1.0"
+ },
+ "kenn-io__agentsview-602": {
+  "repo": "kenn-io/agentsview",
+  "pull_number": 602,
+  "pr_url": "https://github.com/kenn-io/agentsview/pull/602",
+  "issue_number": 596,
+  "created_at": "2026-06-07",
+  "base_commit": "61d3d11204085a2ca4553d1e5beccff86be2ba58",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/kenn-io__agentsview-602:v0.1.0"
+ },
+ "kestra-io__kestra-16067": {
+  "repo": "kestra-io/kestra",
+  "pull_number": 16067,
+  "pr_url": "https://github.com/kestra-io/kestra/pull/16067",
+  "issue_number": 12296,
+  "created_at": "2026-05-17",
+  "base_commit": "547816626a7f42f44286a21c3f97d1c1f9ed57a7",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/kestra-io__kestra-16067:v0.1.0"
+ },
+ "kestra-io__kestra-16119": {
+  "repo": "kestra-io/kestra",
+  "pull_number": 16119,
+  "pr_url": "https://github.com/kestra-io/kestra/pull/16119",
+  "issue_number": 15729,
+  "created_at": "2026-05-19",
+  "base_commit": "51bb1f5b4d74eaaf328a2c51ace234df4d919aae",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/kestra-io__kestra-16119:v0.1.0"
+ },
+ "kestra-io__kestra-16450": {
+  "repo": "kestra-io/kestra",
+  "pull_number": 16450,
+  "pr_url": "https://github.com/kestra-io/kestra/pull/16450",
+  "issue_number": 16432,
+  "created_at": "2026-06-01",
+  "base_commit": "3f64fbf66e5c7f4b1a5e13ac47cda1cb8c213282",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/kestra-io__kestra-16450:v0.1.0"
+ },
+ "kubernetes-sigs__kueue-11559": {
+  "repo": "kubernetes-sigs/kueue",
+  "pull_number": 11559,
+  "pr_url": "https://github.com/kubernetes-sigs/kueue/pull/11559",
+  "issue_number": 11496,
+  "created_at": "2026-05-23",
+  "base_commit": "8078525295edb6717ccbfa9343c06834eb675a3b",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/kubernetes-sigs__kueue-11559:v0.1.0"
+ },
+ "kubernetes-sigs__kueue-11619": {
+  "repo": "kubernetes-sigs/kueue",
+  "pull_number": 11619,
+  "pr_url": "https://github.com/kubernetes-sigs/kueue/pull/11619",
+  "issue_number": 11599,
+  "created_at": "2026-05-25",
+  "base_commit": "4cc62da8e6d7ce4238219406b6e20d8941a768b5",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/kubernetes-sigs__kueue-11619:v0.1.0"
+ },
+ "langchain-ai__deepagents-3866": {
+  "repo": "langchain-ai/deepagents",
+  "pull_number": 3866,
+  "pr_url": "https://github.com/langchain-ai/deepagents/pull/3866",
+  "issue_number": 3867,
+  "created_at": "2026-06-11",
+  "base_commit": "194b638a145d77d9ceed1d9f5ebe36b36fd08c21",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/langchain-ai__deepagents-3866:v0.1.0"
+ },
+ "langchain4j__langchain4j-5315": {
+  "repo": "langchain4j/langchain4j",
+  "pull_number": 5315,
+  "pr_url": "https://github.com/langchain4j/langchain4j/pull/5315",
+  "issue_number": 5309,
+  "created_at": "2026-05-27",
+  "base_commit": "fa4b4cc42d54741df8f64e931b267a87a3a42970",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/langchain4j__langchain4j-5315:v0.1.0"
+ },
+ "langchain4j__langchain4j-5328": {
+  "repo": "langchain4j/langchain4j",
+  "pull_number": 5328,
+  "pr_url": "https://github.com/langchain4j/langchain4j/pull/5328",
+  "issue_number": 5302,
+  "created_at": "2026-05-29",
+  "base_commit": "35622c346c28ba03bf7b34b55f1532c7a9c652af",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/langchain4j__langchain4j-5328:v0.1.0"
+ },
+ "langchain4j__langchain4j-5367": {
+  "repo": "langchain4j/langchain4j",
+  "pull_number": 5367,
+  "pr_url": "https://github.com/langchain4j/langchain4j/pull/5367",
+  "issue_number": 5366,
+  "created_at": "2026-06-04",
+  "base_commit": "c9f5274059cd3cdb19c1f59fd2fdaa3e86a87fba",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/langchain4j__langchain4j-5367:v0.1.0"
+ },
+ "livekit__agents-5944": {
+  "repo": "livekit/agents",
+  "pull_number": 5944,
+  "pr_url": "https://github.com/livekit/agents/pull/5944",
+  "issue_number": 5906,
+  "created_at": "2026-06-02",
+  "base_commit": "96e199cded5606c522f878ef99f424b450dd0559",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/livekit__agents-5944:v0.1.0"
+ },
+ "ludo-technologies__pyscn-500": {
+  "repo": "ludo-technologies/pyscn",
+  "pull_number": 500,
+  "pr_url": "https://github.com/ludo-technologies/pyscn/pull/500",
+  "issue_number": 499,
+  "created_at": "2026-05-31",
+  "base_commit": "da2236d79042a50fae7f8549791f871fe22af140",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/ludo-technologies__pyscn-500:v0.1.0"
+ },
+ "ludo-technologies__pyscn-548": {
+  "repo": "ludo-technologies/pyscn",
+  "pull_number": 548,
+  "pr_url": "https://github.com/ludo-technologies/pyscn/pull/548",
+  "issue_number": 518,
+  "created_at": "2026-06-12",
+  "base_commit": "fb3fe92d19e27c27994e0306ecee11fc46e5c937",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/ludo-technologies__pyscn-548:v0.1.0"
+ },
+ "marimo-team__marimo-9626": {
+  "repo": "marimo-team/marimo",
+  "pull_number": 9626,
+  "pr_url": "https://github.com/marimo-team/marimo/pull/9626",
+  "issue_number": 9613,
+  "created_at": "2026-05-20",
+  "base_commit": "edbb52649480b2a441d322301415907ea792e207",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/marimo-team__marimo-9626:v0.1.0"
+ },
+ "marimo-team__marimo-9754": {
+  "repo": "marimo-team/marimo",
+  "pull_number": 9754,
+  "pr_url": "https://github.com/marimo-team/marimo/pull/9754",
+  "issue_number": 9744,
+  "created_at": "2026-06-02",
+  "base_commit": "2a9bf11728924dc3d13b866108f4d587bf32b40b",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/marimo-team__marimo-9754:v0.1.0"
+ },
+ "marimo-team__marimo-9766": {
+  "repo": "marimo-team/marimo",
+  "pull_number": 9766,
+  "pr_url": "https://github.com/marimo-team/marimo/pull/9766",
+  "issue_number": 9765,
+  "created_at": "2026-06-02",
+  "base_commit": "4d47f09aea6588159979b60893dc2e7fe2a1a457",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/marimo-team__marimo-9766:v0.1.0"
+ },
+ "matrixorigin__matrixone-24632": {
+  "repo": "matrixorigin/matrixone",
+  "pull_number": 24632,
+  "pr_url": "https://github.com/matrixorigin/matrixone/pull/24632",
+  "issue_number": 24623,
+  "created_at": "2026-05-27",
+  "base_commit": "f8236ddbd92180fac729679df8db8851cda5e02c",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/matrixorigin__matrixone-24632:v0.1.0"
+ },
+ "microsoft__apm-1553": {
+  "repo": "microsoft/apm",
+  "pull_number": 1553,
+  "pr_url": "https://github.com/microsoft/apm/pull/1553",
+  "issue_number": 1548,
+  "created_at": "2026-05-29",
+  "base_commit": "549e55aeaae2fb2e86a9ae8dfe996e1e1b3709e9",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/microsoft__apm-1553:v0.1.0"
+ },
+ "microsoft__typescript-go-4062": {
+  "repo": "microsoft/typescript-go",
+  "pull_number": 4062,
+  "pr_url": "https://github.com/microsoft/typescript-go/pull/4062",
+  "issue_number": 4057,
+  "created_at": "2026-05-27",
+  "base_commit": "2a26cbd26cd4472951cfee18d2efb52c217a0668",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/microsoft__typescript-go-4062:v0.1.0"
+ },
+ "microsoft__typescript-go-4194": {
+  "repo": "microsoft/typescript-go",
+  "pull_number": 4194,
+  "pr_url": "https://github.com/microsoft/typescript-go/pull/4194",
+  "issue_number": 3873,
+  "created_at": "2026-06-04",
+  "base_commit": "dbd8d7f28c4ab9783d10f5ff3e09f9084ad48086",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/microsoft__typescript-go-4194:v0.1.0"
+ },
+ "microsoft__waza-247": {
+  "repo": "microsoft/waza",
+  "pull_number": 247,
+  "pr_url": "https://github.com/microsoft/waza/pull/247",
+  "issue_number": 238,
+  "created_at": "2026-05-20",
+  "base_commit": "b309ea1306087d474bb0847df55f401edc8b2f93",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/microsoft__waza-247:v0.1.0"
+ },
+ "mikro-orm__mikro-orm-7799": {
+  "repo": "mikro-orm/mikro-orm",
+  "pull_number": 7799,
+  "pr_url": "https://github.com/mikro-orm/mikro-orm/pull/7799",
+  "issue_number": 7798,
+  "created_at": "2026-05-29",
+  "base_commit": "184cfde5c581e31379b69a391c3af80baeb2428e",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/mikro-orm__mikro-orm-7799:v0.1.0"
+ },
+ "mozilla-ai__any-llm-1121": {
+  "repo": "mozilla-ai/any-llm",
+  "pull_number": 1121,
+  "pr_url": "https://github.com/mozilla-ai/any-llm/pull/1121",
+  "issue_number": 1110,
+  "created_at": "2026-06-11",
+  "base_commit": "3f9aaaa023c130b2d2a3ae491d5ef6f866fc3850",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/mozilla-ai__any-llm-1121:v0.1.0"
+ },
+ "mui__base-ui-4849": {
+  "repo": "mui/base-ui",
+  "pull_number": 4849,
+  "pr_url": "https://github.com/mui/base-ui/pull/4849",
+  "issue_number": 4169,
+  "created_at": "2026-05-19",
+  "base_commit": "2aa1f56072d0d4677442a2728d249773c276ab8e",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/mui__base-ui-4849:v0.1.0"
+ },
+ "mui__base-ui-4903": {
+  "repo": "mui/base-ui",
+  "pull_number": 4903,
+  "pr_url": "https://github.com/mui/base-ui/pull/4903",
+  "issue_number": 4880,
+  "created_at": "2026-05-25",
+  "base_commit": "37fb6da5d8ea2147386d6a6936eceac37ab8b515",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/mui__base-ui-4903:v0.1.0"
+ },
+ "mvanhorn__cli-printing-press-1920": {
+  "repo": "mvanhorn/cli-printing-press",
+  "pull_number": 1920,
+  "pr_url": "https://github.com/mvanhorn/cli-printing-press/pull/1920",
+  "issue_number": 1664,
+  "created_at": "2026-05-23",
+  "base_commit": "2c7cbba2b2fa194ad82a24161701e2dabbc5eced",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-1920:v0.1.0"
+ },
+ "mvanhorn__cli-printing-press-2002": {
+  "repo": "mvanhorn/cli-printing-press",
+  "pull_number": 2002,
+  "pr_url": "https://github.com/mvanhorn/cli-printing-press/pull/2002",
+  "issue_number": 1581,
+  "created_at": "2026-05-23",
+  "base_commit": "13f5d99b1e538ab90500f9312380d97bb093af0e",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-2002:v0.1.0"
+ },
+ "mvanhorn__cli-printing-press-2086": {
+  "repo": "mvanhorn/cli-printing-press",
+  "pull_number": 2086,
+  "pr_url": "https://github.com/mvanhorn/cli-printing-press/pull/2086",
+  "issue_number": 1753,
+  "created_at": "2026-05-24",
+  "base_commit": "861be987d3e7d0283337126927e4a6e111c7a521",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-2086:v0.1.0"
+ },
+ "nearai__ironclaw-3694": {
+  "repo": "nearai/ironclaw",
+  "pull_number": 3694,
+  "pr_url": "https://github.com/nearai/ironclaw/pull/3694",
+  "issue_number": 3625,
+  "created_at": "2026-05-15",
+  "base_commit": "1e5c87c6c7f7ff39024c7da24a4c7d29a4065339",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/nearai__ironclaw-3694:v0.1.0"
+ },
+ "nearai__ironclaw-3735": {
+  "repo": "nearai/ironclaw",
+  "pull_number": 3735,
+  "pr_url": "https://github.com/nearai/ironclaw/pull/3735",
+  "issue_number": 3627,
+  "created_at": "2026-05-17",
+  "base_commit": "1e5c87c6c7f7ff39024c7da24a4c7d29a4065339",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/nearai__ironclaw-3735:v0.1.0"
+ },
+ "nesquena__hermes-webui-3069": {
+  "repo": "nesquena/hermes-webui",
+  "pull_number": 3069,
+  "pr_url": "https://github.com/nesquena/hermes-webui/pull/3069",
+  "issue_number": 3019,
+  "created_at": "2026-05-28",
+  "base_commit": "5528e2c5792e8c2f6510ccc130884a8d6da49f63",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/nesquena__hermes-webui-3069:v0.1.0"
+ },
+ "open-jarvis__OpenJarvis-465": {
+  "repo": "open-jarvis/OpenJarvis",
+  "pull_number": 465,
+  "pr_url": "https://github.com/open-jarvis/OpenJarvis/pull/465",
+  "issue_number": 297,
+  "created_at": "2026-06-01",
+  "base_commit": "5270149ea59f5c9eb4be23e4ab3e037a7cab8b31",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/open-jarvis__openjarvis-465:v0.1.0"
+ },
+ "openrewrite__rewrite-7784": {
+  "repo": "openrewrite/rewrite",
+  "pull_number": 7784,
+  "pr_url": "https://github.com/openrewrite/rewrite/pull/7784",
+  "issue_number": 7773,
+  "created_at": "2026-05-26",
+  "base_commit": "2d625133cc0797cf91dca8dca5dfd70400bf5cfe",
+  "language": "java",
+  "image_name": "docker.io/swerebenchv2/openrewrite__rewrite-7784:v0.1.0"
+ },
+ "oxc-project__oxc-22623": {
+  "repo": "oxc-project/oxc",
+  "pull_number": 22623,
+  "pr_url": "https://github.com/oxc-project/oxc/pull/22623",
+  "issue_number": 22622,
+  "created_at": "2026-05-20",
+  "base_commit": "b284045af250ca305cd150955180d1e1ca8be0e3",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/oxc-project__oxc-22623:v0.1.0"
+ },
+ "promptfoo__promptfoo-9313": {
+  "repo": "promptfoo/promptfoo",
+  "pull_number": 9313,
+  "pr_url": "https://github.com/promptfoo/promptfoo/pull/9313",
+  "issue_number": 9312,
+  "created_at": "2026-05-20",
+  "base_commit": "4e41209adad4eefd8842a58e170088dde91a49b5",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/promptfoo__promptfoo-9313:v0.1.0"
+ },
+ "pydantic__pydantic-ai-5580": {
+  "repo": "pydantic/pydantic-ai",
+  "pull_number": 5580,
+  "pr_url": "https://github.com/pydantic/pydantic-ai/pull/5580",
+  "issue_number": 5579,
+  "created_at": "2026-05-22",
+  "base_commit": "9871f756992fdab68fa0b103022a494a5aaf0ebf",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/pydantic__pydantic-ai-5580:v0.1.0"
+ },
+ "pydantic__pydantic-ai-5842": {
+  "repo": "pydantic/pydantic-ai",
+  "pull_number": 5842,
+  "pr_url": "https://github.com/pydantic/pydantic-ai/pull/5842",
+  "issue_number": 5829,
+  "created_at": "2026-06-09",
+  "base_commit": "5965db82c4e10012a8598c14716ea8a88fb411a9",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/pydantic__pydantic-ai-5842:v0.1.0"
+ },
+ "raullenchai__Rapid-MLX-426": {
+  "repo": "raullenchai/Rapid-MLX",
+  "pull_number": 426,
+  "pr_url": "https://github.com/raullenchai/Rapid-MLX/pull/426",
+  "issue_number": 425,
+  "created_at": "2026-05-20",
+  "base_commit": "00c046a0a4eca7982f50fe54f4b5dfc1532054cb",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/raullenchai__rapid-mlx-426:v0.1.0"
+ },
+ "react-hook-form__react-hook-form-13464": {
+  "repo": "react-hook-form/react-hook-form",
+  "pull_number": 13464,
+  "pr_url": "https://github.com/react-hook-form/react-hook-form/pull/13464",
+  "issue_number": 13314,
+  "created_at": "2026-05-22",
+  "base_commit": "831721f88be37efc4098fb9f2ceed9f30d6bed67",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/react-hook-form__react-hook-form-13464:v0.1.0"
+ },
+ "rest-sh__restish-337": {
+  "repo": "rest-sh/restish",
+  "pull_number": 337,
+  "pr_url": "https://github.com/rest-sh/restish/pull/337",
+  "issue_number": 285,
+  "created_at": "2026-05-28",
+  "base_commit": "e89675652d41f56024e8b3b624ed704163e47286",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/rest-sh__restish-337:v0.1.0"
+ },
+ "rust-lang__rust-analyzer-22397": {
+  "repo": "rust-lang/rust-analyzer",
+  "pull_number": 22397,
+  "pr_url": "https://github.com/rust-lang/rust-analyzer/pull/22397",
+  "issue_number": 22388,
+  "created_at": "2026-05-18",
+  "base_commit": "ce81cf65580fb7a52d9f9a896092746356f39320",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/rust-lang__rust-analyzer-22397:v0.1.0"
+ },
+ "sipeed__picoclaw-2928": {
+  "repo": "sipeed/picoclaw",
+  "pull_number": 2928,
+  "pr_url": "https://github.com/sipeed/picoclaw/pull/2928",
+  "issue_number": 2903,
+  "created_at": "2026-05-22",
+  "base_commit": "f09a7d67f746b40c18468a21cb31b17cea7086d4",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/sipeed__picoclaw-2928:v0.1.0"
+ },
+ "stablyai__orca-1934": {
+  "repo": "stablyai/orca",
+  "pull_number": 1934,
+  "pr_url": "https://github.com/stablyai/orca/pull/1934",
+  "issue_number": 1933,
+  "created_at": "2026-05-15",
+  "base_commit": "13e11d14503991375316afdec6d520517f6801e3",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/stablyai__orca-1934:v0.1.0"
+ },
+ "stablyai__orca-4331": {
+  "repo": "stablyai/orca",
+  "pull_number": 4331,
+  "pr_url": "https://github.com/stablyai/orca/pull/4331",
+  "issue_number": 4319,
+  "created_at": "2026-05-31",
+  "base_commit": "472a2a95be4290b10d0eec2f34aa6ab2df1371c4",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/stablyai__orca-4331:v0.1.0"
+ },
+ "stablyai__orca-5176": {
+  "repo": "stablyai/orca",
+  "pull_number": 5176,
+  "pr_url": "https://github.com/stablyai/orca/pull/5176",
+  "issue_number": 5166,
+  "created_at": "2026-06-11",
+  "base_commit": "9d6d05e6ce0f825eea15ec97a6ecff9489cfa1e9",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/stablyai__orca-5176:v0.1.0"
+ },
+ "tailscale__tailscale-19847": {
+  "repo": "tailscale/tailscale",
+  "pull_number": 19847,
+  "pr_url": "https://github.com/tailscale/tailscale/pull/19847",
+  "issue_number": 19834,
+  "created_at": "2026-05-22",
+  "base_commit": "5295e3e1195e77821feb11537ba40bb0a49124ae",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/tailscale__tailscale-19847:v0.1.0"
+ },
+ "tashfeenahmed__freellmapi-289": {
+  "repo": "tashfeenahmed/freellmapi",
+  "pull_number": 289,
+  "pr_url": "https://github.com/tashfeenahmed/freellmapi/pull/289",
+  "issue_number": 287,
+  "created_at": "2026-06-11",
+  "base_commit": "2dc9967e5478c4fb95926918ab8c1f2ddc14388e",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/tashfeenahmed__freellmapi-289:v0.1.0"
+ },
+ "teng-lin__notebooklm-py-826": {
+  "repo": "teng-lin/notebooklm-py",
+  "pull_number": 826,
+  "pr_url": "https://github.com/teng-lin/notebooklm-py/pull/826",
+  "issue_number": 816,
+  "created_at": "2026-05-18",
+  "base_commit": "eb7bb45f3071fa9ccc7bdd89d1af92da125382d8",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/teng-lin__notebooklm-py-826:v0.1.0"
+ },
+ "tursodatabase__turso-7117": {
+  "repo": "tursodatabase/turso",
+  "pull_number": 7117,
+  "pr_url": "https://github.com/tursodatabase/turso/pull/7117",
+  "issue_number": 6769,
+  "created_at": "2026-05-16",
+  "base_commit": "b7a294de559778740bda1b9f5ea2cac4bef1cd7c",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/tursodatabase__turso-7117:v0.1.0"
+ },
+ "ubugeeei-prod__vize-1265": {
+  "repo": "ubugeeei-prod/vize",
+  "pull_number": 1265,
+  "pr_url": "https://github.com/ubugeeei-prod/vize/pull/1265",
+  "issue_number": 1186,
+  "created_at": "2026-06-09",
+  "base_commit": "d90df360f333eda938117bc46a271788720d0c81",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ubugeeei-prod__vize-1265:v0.1.0"
+ },
+ "ubugeeei-prod__vize-1281": {
+  "repo": "ubugeeei-prod/vize",
+  "pull_number": 1281,
+  "pr_url": "https://github.com/ubugeeei-prod/vize/pull/1281",
+  "issue_number": 1196,
+  "created_at": "2026-06-09",
+  "base_commit": "8de44530eef34bd2658c52c5f53a2963e0980b1d",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ubugeeei-prod__vize-1281:v0.1.0"
+ },
+ "ubugeeei-prod__vize-1508": {
+  "repo": "ubugeeei-prod/vize",
+  "pull_number": 1508,
+  "pr_url": "https://github.com/ubugeeei-prod/vize/pull/1508",
+  "issue_number": 1493,
+  "created_at": "2026-06-12",
+  "base_commit": "f86ac3c25d20726a3c1b9c360bda2efba4a6ece3",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ubugeeei-prod__vize-1508:v0.1.0"
+ },
+ "ubugeeei-prod__vize-769": {
+  "repo": "ubugeeei-prod/vize",
+  "pull_number": 769,
+  "pr_url": "https://github.com/ubugeeei-prod/vize/pull/769",
+  "issue_number": 765,
+  "created_at": "2026-05-30",
+  "base_commit": "b06aeecfb8c215de44dcfbce1978c5ede4f8ac41",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ubugeeei-prod__vize-769:v0.1.0"
+ },
+ "ubugeeei-prod__vize-774": {
+  "repo": "ubugeeei-prod/vize",
+  "pull_number": 774,
+  "pr_url": "https://github.com/ubugeeei-prod/vize/pull/774",
+  "issue_number": 763,
+  "created_at": "2026-05-30",
+  "base_commit": "f110960b5311c150831079eeddccc6cbb548606b",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/ubugeeei-prod__vize-774:v0.1.0"
+ },
+ "ueberdosis__tiptap-7887": {
+  "repo": "ueberdosis/tiptap",
+  "pull_number": 7887,
+  "pr_url": "https://github.com/ueberdosis/tiptap/pull/7887",
+  "issue_number": 6348,
+  "created_at": "2026-05-29",
+  "base_commit": "aff939d846e49ede2fd5fffe5ffa80ee9259428a",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/ueberdosis__tiptap-7887:v0.1.0"
+ },
+ "ueberdosis__tiptap-7896": {
+  "repo": "ueberdosis/tiptap",
+  "pull_number": 7896,
+  "pr_url": "https://github.com/ueberdosis/tiptap/pull/7896",
+  "issue_number": 7834,
+  "created_at": "2026-05-30",
+  "base_commit": "aff939d846e49ede2fd5fffe5ffa80ee9259428a",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/ueberdosis__tiptap-7896:v0.1.0"
+ },
+ "verl-project__verl-6506": {
+  "repo": "verl-project/verl",
+  "pull_number": 6506,
+  "pr_url": "https://github.com/verl-project/verl/pull/6506",
+  "issue_number": 6492,
+  "created_at": "2026-05-27",
+  "base_commit": "75be454b7d8511823ff3730e3fe4138cbd3e4764",
+  "language": "python",
+  "image_name": "docker.io/swerebenchv2/verl-project__verl-6506:v0.1.0"
+ },
+ "vuejs__core-14877": {
+  "repo": "vuejs/core",
+  "pull_number": 14877,
+  "pr_url": "https://github.com/vuejs/core/pull/14877",
+  "issue_number": 14876,
+  "created_at": "2026-05-23",
+  "base_commit": "bbdf86dcc6e3a8108c6313484ddfb52019b3e0e8",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/vuejs__core-14877:v0.1.0"
+ },
+ "vuejs__core-14897": {
+  "repo": "vuejs/core",
+  "pull_number": 14897,
+  "pr_url": "https://github.com/vuejs/core/pull/14897",
+  "issue_number": 13524,
+  "created_at": "2026-05-31",
+  "base_commit": "86ad0764fd9f7b01cef75b4fc941b03419306bf8",
+  "language": "typescript",
+  "image_name": "docker.io/swerebenchv2/vuejs__core-14897:v0.1.0"
+ },
+ "withcoral__coral-1143": {
+  "repo": "withcoral/coral",
+  "pull_number": 1143,
+  "pr_url": "https://github.com/withcoral/coral/pull/1143",
+  "issue_number": 1121,
+  "created_at": "2026-06-03",
+  "base_commit": "6186729b1384489d411a0db318171360d338dc21",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/withcoral__coral-1143:v0.1.0"
+ },
+ "withcoral__coral-1179": {
+  "repo": "withcoral/coral",
+  "pull_number": 1179,
+  "pr_url": "https://github.com/withcoral/coral/pull/1179",
+  "issue_number": 1155,
+  "created_at": "2026-06-04",
+  "base_commit": "fe925f9f996fc32a423857e2ac9ac41750569dbc",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/withcoral__coral-1179:v0.1.0"
+ },
+ "withcoral__coral-1186": {
+  "repo": "withcoral/coral",
+  "pull_number": 1186,
+  "pr_url": "https://github.com/withcoral/coral/pull/1186",
+  "issue_number": 1158,
+  "created_at": "2026-06-04",
+  "base_commit": "fe925f9f996fc32a423857e2ac9ac41750569dbc",
+  "language": "rust",
+  "image_name": "docker.io/swerebenchv2/withcoral__coral-1186:v0.1.0"
+ },
+ "woodpecker-ci__woodpecker-6623": {
+  "repo": "woodpecker-ci/woodpecker",
+  "pull_number": 6623,
+  "pr_url": "https://github.com/woodpecker-ci/woodpecker/pull/6623",
+  "issue_number": 6616,
+  "created_at": "2026-05-22",
+  "base_commit": "6a1094b6f038ed3ea3fc88a380dc019b10300527",
+  "language": "go",
+  "image_name": "docker.io/swerebenchv2/woodpecker-ci__woodpecker-6623:v0.1.0"
+ }
+}
