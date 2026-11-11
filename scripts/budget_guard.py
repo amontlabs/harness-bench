@@ -42,7 +42,11 @@ def live_costs() -> dict[str, float]:
             agent = Path(tmp) / "agent"
             otel = agent / "nanocode-home" / "log" / "otel" / "live"
             otel.mkdir(parents=True)
+            sessions = agent / "sessions" / "projects" / "live"
+            sessions.mkdir(parents=True)
             for remote, local in (("/logs/agent/claude-code.txt", agent / "claude-code.txt"),
+                                  ("$(find /logs/agent/sessions/projects -name '*.jsonl' 2>/dev/null)",
+                                   sessions / "transcript.jsonl"),
                                   ("/logs/agent/nanocode-home/log/otel/*/traces.jsonl", otel / "traces.jsonl")):
                 text = subprocess.run(["docker", "exec", name, "sh", "-c", f"cat {remote} 2>/dev/null"],
                                       capture_output=True, text=True).stdout

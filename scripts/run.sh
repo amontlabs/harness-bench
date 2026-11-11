@@ -55,7 +55,9 @@ msb exec "$NAME" -- sh -c "
   # Anything Harbor left running (after a SIGKILL) is stopped so no harness keeps spending.
   docker ps -q | xargs -r docker kill >/dev/null
   kill \$EVENTS 2>/dev/null
-  dmesg -c 2>/dev/null | grep -iE 'out of memory|oom-kill' > jobs/$JOB.vm-oom.log || true
+  # Container-limit OOMs (CONSTRAINT_MEMCG) are agent outcomes and come from docker events;
+  # only kernel OOM kills outside a container limit are VM-level.
+  dmesg -c 2>/dev/null | grep -E 'oom-kill:constraint=CONSTRAINT_(NONE|CPUSET|MEMORY_POLICY)' > jobs/$JOB.vm-oom.log || true
   tail -40 jobs/$JOB.log
   echo \"OOM events: \$(cat jobs/$JOB.oom.log jobs/$JOB.vm-oom.log | grep -c .)\"
   docker container prune -f >/dev/null; docker image prune -af >/dev/null

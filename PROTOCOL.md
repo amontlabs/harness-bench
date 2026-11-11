@@ -154,3 +154,17 @@ virtualization, europe-west1-b), inside the same microsandbox VM image with 11 v
 calibration 4, main 6, main-big 4. Everything else is unchanged. The budget guard also
 prices running trials from inside their containers (see the budget-guard fix commit), since Harbor copies
 agent logs out only when a trial ends.
+
+## Amendment 2 (2026-11-11, after calibration, before the main phases)
+
+Calibration showed that Claude Code's stream-json assistant events carry each message's
+usage from its start, without its output and thinking tokens: summed, they came to about
+65% of the final `result` cost. Claude Code's session transcripts hold the final usage
+and matched `result.modelUsage` exactly on all 4 calibration trials. Timed-out Claude Code
+trials (no `result` event) and the budget guard's view of running trials now use the
+transcripts. This changes no trial and no finished trial's measured usage, so calibration
+trials are kept.
+
+The VM-level OOM log now keeps only kernel OOM kills outside a container memory limit.
+Calibration's one OOM line was a container-limit kill (nanocode, compile-compcert, a
+`coqc` process; the trial still passed), which counts as an agent outcome.

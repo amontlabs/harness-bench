@@ -4,12 +4,13 @@ Both arms are priced with the same table, from the tokens each harness actually 
 rather than trusting either harness's own cost estimate. Runs use a Claude subscription,
 so these are API-equivalent dollars, not a bill.
 
-Claude Code: `agent/claude-code.txt` is its stream-json output. Every `assistant` event
-carries the usage of the Messages response it belongs to (main loop and subagents);
-events are deduplicated by message id and summed. This works for a run killed at its
-timeout, which never writes the final `result` event. When the `result` event exists,
-its `modelUsage` (which also covers side calls such as Haiku) is used instead, and the
-event sum is kept as a cross-check. Server-side web searches are priced at $10 per 1,000.
+Claude Code: when its stream-json output (`agent/claude-code.txt`) ends with a `result`
+event, that event's `modelUsage` is used (it also covers side calls such as Haiku).
+Otherwise (a run killed at its timeout) usage is the sum, per message id, of the final
+usage recorded in Claude Code's session transcripts (`agent/sessions/projects/**/*.jsonl`),
+which is also kept as a cross-check on finished runs. The stream's own assistant events
+are not used for counting: they carry each message's usage from its start, without the
+output (and thinking) tokens. Server-side web searches are priced at $10 per 1,000.
 
 nanocode: every Messages request is a `model.call` span (compaction a
 `model.compaction` span, prompt-cache keep-alive a `claude.cache.refresh` span) in its local OpenTelemetry traces
@@ -81,21 +82,33 @@ def _events(path: Path):
             yield event
 
 
+def _transcript_messages(agent_dir: Path) -> dict:
+    """Final usage of every assistant message in Claude Code's session transcripts
+    (main loop and subagents), by message id. Unlike stream-json events, which carry
+    the usage snapshot from the start of a message, the transcript holds final counts
+    (they matched `result.modelUsage` exactly on every calibration trial)."""
+    messages = {}
+    for path in sorted((agent_dir / "sessions").glob("projects/**/*.jsonl")):
+        for event in _events(path):
+            message = event.get("message")
+            if (isinstance(message, dict) and message.get("role") == "assistant" and message.get("id")
+                    and message.get("usage") and message.get("model") != "<synthetic>"):
+                messages[message["id"]] = (message.get("model", "unknown"), message["usage"])
+    return messages
+
+
 def claude_code_usage(agent_dir: Path) -> dict | None:
     stream = agent_dir / "claude-code.txt"
     if not stream.is_file():
         return None
-    result, messages, retries = None, {}, 0
+    result, retries = None, 0
     for event in _events(stream):
         kind = event.get("type")
         if kind == "result":
             result = event
         elif kind == "system" and "retry" in str(event.get("subtype", "")):
             retries += 1
-        elif kind == "assistant" and isinstance(event.get("message"), dict):
-            message = event["message"]
-            if message.get("id") and message.get("usage") and message.get("model") != "<synthetic>":
-                messages[message["id"]] = (message.get("model", "unknown"), message["usage"])
+    messages = _transcript_messages(agent_dir)
 
     from_events = _empty()
     for model, u in messages.values():
@@ -115,7 +128,7 @@ def claude_code_usage(agent_dir: Path) -> dict | None:
     if result is None or not result.get("modelUsage"):
         if not messages and status is None:
             return None
-        from_events["source"] = "assistant events (no result event)" if result is None else "assistant events"
+        from_events["source"] = "session transcript (no result event)" if result is None else "session transcript"
         from_events["reported_cost_usd"] = None
         from_events["api_error_status"] = status
         return from_events

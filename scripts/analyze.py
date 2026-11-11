@@ -297,9 +297,9 @@ def main() -> None:
                      f"nanocode telemetry lost (usage undercounted)={r['telemetry_lost']}")
     ratios = [r["events_over_result"] for r in rows if r.get("events_over_result")]
     if ratios:
-        lines.append(f"- Claude Code cost from per-message events / from result event, finished trials: "
+        lines.append(f"- Claude Code cost from session transcripts / from result event, finished trials: "
                      f"median {median(ratios):.3f}, range {min(ratios):.3f}-{max(ratios):.3f} (n={len(ratios)}). "
-                     "Costs of timed-out Claude Code trials come from events; far from 1 means they are biased.")
+                     "Costs of timed-out Claude Code trials come from the transcripts; far from 1 means they are biased.")
     for oom in sorted((ROOT / "jobs").glob("tb21-*vm-oom.log")) if (ROOT / "jobs").is_dir() else []:
         text = oom.read_text().strip()
         if text:
