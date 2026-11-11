@@ -20,7 +20,29 @@ machine**, and compares them task by task. Only the harness differs.
   VM; each trial gets a fresh container. No personal config, MCP servers or skills.
 - **Rules:** fixed in advance in [PROTOCOL.md](PROTOCOL.md).
 
-**Status:** running. Results will be added to this README when the run finishes.
+### Results (2026-11-11)
+
+23 tasks compared, one attempt per harness ([full results](results/summary.md),
+[every trial](results/trials.csv)).
+
+|  | Claude Code | nanocode |
+|---|---|---|
+| Tasks solved | 19 / 23 | 18 / 23 |
+| Total cost (API-equivalent) | $7.90 | $5.70 |
+
+- **Solved:** no detectable difference. Each harness solved a few tasks the other
+  didn't (Claude Code 3, nanocode 2). The difference is -4 points, 95% CI -22 to +13.
+- **Cost per task:** nanocode was 26% cheaper on average (95% CI 56% cheaper to 11%
+  more expensive), so not a clear difference either.
+- **Time:** on the 20 tasks both finished normally, nanocode took about 22% longer
+  (95% CI -5% to +52%).
+- **Refusals:** Claude's safety classifier stopped both harnesses on `dna-assembly`, and
+  stopped nanocode only on `feal-linear-cryptanalysis`, which Claude Code solved.
+- **Excluded:** `qemu-startup`, because Debian no longer serves the packages its image
+  needs to install either harness (twice, both harnesses).
+
+With 23 tasks and one attempt each, only large differences would show. This says
+nanocode is in the same range as Claude Code on these tasks, not that they are equal.
 
 ## How it works
 

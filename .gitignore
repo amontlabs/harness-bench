@@ -1,7 +1,6 @@
 .venv/
 vendor/
 jobs/
-results/
 configs/job-*.json
 __pycache__/
 *.pyc
