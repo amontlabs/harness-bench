@@ -155,3 +155,13 @@ With 30 paired tasks and one attempt each, only large pass-rate gaps (roughly 25
 or more) would be detectable. Together with study 1 it shows whether the two harnesses
 stay in the same range on a different kind of work: longer exploration of an unfamiliar
 codebase, edits across files, and running a project's own test suite.
+
+## Amendment 1 (2026-11-11, after calibration, before the main phase)
+
+Calibration cost $8.78 for 10 trials ($0.88 per trial; Claude Code $4.49, nanocode $4.29).
+By the stop rule, $0.88 × 54 = $47 exceeded the remaining budget ($60 − $8.78 − $8 = $43),
+so the main phase was not started. Study 2's cap is raised to **$75** (agreed with the
+repository owner), keeping all 30 tasks; nothing else changes. Calibration trials are
+kept: the configuration is unchanged. Calibration's two flagged trials (both arms, ruff)
+were reviewed before rewards were read: an issue URL inside a code comment written with
+`sed`/`printf`, and the repository's `uvx prek` hook run matched by a path; no access.

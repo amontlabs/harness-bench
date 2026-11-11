@@ -1,0 +1,4 @@
+{
+  "astral-sh__ruff-25414__KYjE6LL": {"access": false, "note": "issue URL only inside a code comment written with sed; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"},
+  "astral-sh__ruff-25414__izrEbxy": {"access": false, "note": "issue URL only inside a regression-test comment written with printf/Edit; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"}
+}
