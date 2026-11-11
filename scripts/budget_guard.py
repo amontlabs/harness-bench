@@ -1,7 +1,7 @@
 """Stop a running Harbor job before total spend reaches the cap.
 
 Every `--interval` seconds it prices, with scripts/usage.py, every finished trial of
-every job under jobs/ whose name starts with `tb21-`, and every trial still running,
+every job under jobs/ whose name starts with the study's prefix (study 1: `tb21-`), and every trial still running,
 from the logs inside its container (Harbor copies them out only at the end): Claude
 Code's stream-json so far, nanocode's spans so far. When
 spent + margin >= cap it sends SIGTERM to Harbor (which cancels its trials), and
@@ -22,6 +22,7 @@ import traceback
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from study import current  # noqa: E402
 from usage import trial_usage  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -58,9 +59,9 @@ def live_costs() -> dict[str, float]:
     return costs
 
 
-def spent(jobs_dir: Path) -> tuple[float, int]:
+def spent(jobs_dir: Path, prefix: str | None = None) -> tuple[float, int]:
     costs: dict[str, float] = {}
-    for job in sorted(jobs_dir.glob("tb21-*")):
+    for job in sorted(jobs_dir.glob(f"{prefix or current().prefix}-*")):
         if not job.is_dir():
             continue
         for trial in job.iterdir():
@@ -97,7 +98,8 @@ def stop(pid: int, reason: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--pid", type=int, required=True)
-    parser.add_argument("--cap", type=float, required=True, help="total USD across all tb21-* jobs")
+    parser.add_argument("--cap", type=float, required=True,
+                        help="total USD across all of the study's jobs (BENCH_STUDY)")
     parser.add_argument("--margin", type=float, default=6.0,
                         help="stop this much below the cap, for trials in flight")
     parser.add_argument("--jobs-dir", type=Path, default=ROOT / "jobs")
