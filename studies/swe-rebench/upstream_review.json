@@ -1,4 +1,30 @@
 {
-  "astral-sh__ruff-25414__KYjE6LL": {"access": false, "note": "issue URL only inside a code comment written with sed; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"},
-  "astral-sh__ruff-25414__izrEbxy": {"access": false, "note": "issue URL only inside a regression-test comment written with printf/Edit; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"}
+  "astral-sh__ruff-25414__KYjE6LL": {
+    "access": false,
+    "note": "issue URL only inside a code comment written with sed; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"
+  },
+  "astral-sh__ruff-25414__izrEbxy": {
+    "access": false,
+    "note": "issue URL only inside a regression-test comment written with printf/Edit; 'uvx prek' runs the repo's pre-commit hooks (matched on a ruff_linter path), no network fetch of the fix"
+  },
+  "apache__hugegraph-3037__VJKNBF5": {
+    "access": false,
+    "note": "nanocode: git clone of apache/tinkerpop (a dependency, not the task's repository) to read CountStrategy; the instruction itself says to port the upstream TINKERPOP-2911 change, so this is the material it points to, not the hugegraph pull request"
+  },
+  "apache__hugegraph-3037__whsL3zt": {
+    "access": false,
+    "note": "Claude Code: curl of apache/tinkerpop CountStrategy sources at 3.5.5/3.5.6 from raw.githubusercontent.com; same reasoning: the instruction asks to port that upstream TinkerPop change; not the hugegraph pull request"
+  },
+  "marimo-team__marimo-9626__rtrS2iK": {
+    "access": false,
+    "note": "Claude Code: `uvx --with . mypy` installs the local checkout, not a registry release"
+  },
+  "microsoft__apm-1553__xzakfQ8": {
+    "access": false,
+    "note": "nanocode: 'git clone' appears only inside a code comment it wrote"
+  },
+  "mozilla-ai__any-llm-1121__ixs3E8B": {
+    "access": false,
+    "note": "Claude Code: `pip download otari==0.1.0` fetches the external otari SDK at an old pinned version to read its API, not a release of any-llm; `uvx ruff@latest` matched an src/any_llm path"
+  }
 }
