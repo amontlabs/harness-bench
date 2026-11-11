@@ -1,0 +1,2360 @@
+{
+  "page": 1,
+  "items": [
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.73274135,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 10421032,
+      "input_tokens": 10739718,
+      "agent_version": "2.1.205",
+      "output_tokens": 227449,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 685250.0528,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.9719472,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 670839,
+      "input_tokens": 747638,
+      "agent_version": "2.1.205",
+      "output_tokens": 32188,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 196450.3528,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.05833195,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 3839864,
+      "input_tokens": 4076542,
+      "agent_version": "2.1.205",
+      "output_tokens": 201270,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 599739.9626,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.39705715,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 10326613,
+      "input_tokens": 10584317,
+      "agent_version": "2.1.205",
+      "output_tokens": 88881,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 409647.5004,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.55008065,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2161033,
+      "input_tokens": 2275505,
+      "agent_version": "2.1.205",
+      "output_tokens": 31516,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 168413.71,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.9593599,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4819558,
+      "input_tokens": 5029423,
+      "agent_version": "2.1.205",
+      "output_tokens": 48453,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 242485.9942,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.46579455,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 16721487,
+      "input_tokens": 17368258,
+      "agent_version": "2.1.205",
+      "output_tokens": 134862,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2265164.73,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.19322465,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 499233,
+      "input_tokens": 564545,
+      "agent_version": "2.1.205",
+      "output_tokens": 53241,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 159385.919,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.4952945,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 738285,
+      "input_tokens": 830337,
+      "agent_version": "2.1.205",
+      "output_tokens": 61945,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 229794.9906,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 8.54337765,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4893958,
+      "input_tokens": 5348136,
+      "agent_version": "2.1.205",
+      "output_tokens": 358143,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 884743.295,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.42927365,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 3819453,
+      "input_tokens": 4039091,
+      "agent_version": "2.1.205",
+      "output_tokens": 164003,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 416776.1258,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.08965725,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 44940,
+      "input_tokens": 54396,
+      "agent_version": "2.1.205",
+      "output_tokens": 2716,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 44569.5838,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.01063075,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4934218,
+      "input_tokens": 5210043,
+      "agent_version": "2.1.205",
+      "output_tokens": 61354,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1823972.2164,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.4801632,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 230569,
+      "input_tokens": 256384,
+      "agent_version": "2.1.205",
+      "output_tokens": 20951,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 110375.0616,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.56077755,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 68606,
+      "input_tokens": 109284,
+      "agent_version": "2.1.205",
+      "output_tokens": 25845,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 91145.2156,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.4169889,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 248698,
+      "input_tokens": 290061,
+      "agent_version": "2.1.205",
+      "output_tokens": 12489,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 101253.91,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.9796811,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2792867,
+      "input_tokens": 2936128,
+      "agent_version": "2.1.205",
+      "output_tokens": 40446,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 857737.3472,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.1828093,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 7195186,
+      "input_tokens": 7484197,
+      "agent_version": "2.1.205",
+      "output_tokens": 129383,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 412626.8218,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.6415477,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1623499,
+      "input_tokens": 1792352,
+      "agent_version": "2.1.205",
+      "output_tokens": 101431,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 396894.3004,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.7201607,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 529254,
+      "input_tokens": 617881,
+      "agent_version": "2.1.205",
+      "output_tokens": 81940,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 216757.4646,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 11.6110527,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/dna-assembly",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 12663839,
+      "input_tokens": 13194758,
+      "agent_version": "2.1.205",
+      "output_tokens": 388089,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 953267.4574,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.4904098,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/dna-insert",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1802341,
+      "input_tokens": 1946560,
+      "agent_version": "2.1.205",
+      "output_tokens": 93936,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 304653.9166,
+      "exception_types": [
+        "UnknownApiError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.01514735,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/extract-elf",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 464707,
+      "input_tokens": 537259,
+      "agent_version": "2.1.205",
+      "output_tokens": 40250,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 145909.6906,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.2012429,
+      "n_errors": 4,
+      "n_trials": 5,
+      "task_name": "terminal-bench/extract-moves-from-video",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 10274803,
+      "input_tokens": 10728245,
+      "agent_version": "2.1.205",
+      "output_tokens": 101859,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1719171.0026,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.3886924,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/feal-differential-cryptanalysis",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2652833,
+      "input_tokens": 2912077,
+      "agent_version": "2.1.205",
+      "output_tokens": 241489,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 638547.766,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.9918245,
+      "n_errors": 3,
+      "n_trials": 5,
+      "task_name": "terminal-bench/feal-linear-cryptanalysis",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 7200387,
+      "input_tokens": 7685069,
+      "agent_version": "2.1.205",
+      "output_tokens": 326312,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1309321.7194,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.97171965,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/filter-js-from-html",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 8584473,
+      "input_tokens": 8890207,
+      "agent_version": "2.1.205",
+      "output_tokens": 216680,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 815922.4926,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.19980265,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/financial-document-processor",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2083693,
+      "input_tokens": 2373295,
+      "agent_version": "2.1.205",
+      "output_tokens": 32587,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 186274.2038,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.4354377,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/fix-code-vulnerability",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 338309,
+      "input_tokens": 383134,
+      "agent_version": "2.1.205",
+      "output_tokens": 11064,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 66061.5218,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.36715995,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/fix-git",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 207929,
+      "input_tokens": 240569,
+      "agent_version": "2.1.205",
+      "output_tokens": 12163,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 64417.8286,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.3990781,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/fix-ocaml-gc",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 10057507,
+      "input_tokens": 10365866,
+      "agent_version": "2.1.205",
+      "output_tokens": 81786,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1953585.9656,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.58836545,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/gcode-to-text",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1270649,
+      "input_tokens": 1395445,
+      "agent_version": "2.1.205",
+      "output_tokens": 49289,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 264390.2964,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.24042015,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/git-leak-recovery",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 118943,
+      "input_tokens": 135855,
+      "agent_version": "2.1.205",
+      "output_tokens": 9425,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 58261.5968,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.00617975,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/git-multibranch",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 880635,
+      "input_tokens": 944979,
+      "agent_version": "2.1.205",
+      "output_tokens": 33391,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 151603.0514,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": null,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/gpt2-codegolf",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 5282469,
+      "input_tokens": 5702963,
+      "agent_version": "2.1.205",
+      "output_tokens": 318854,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 947612.7798,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.71041325,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/headless-terminal",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1491710,
+      "input_tokens": 1595286,
+      "agent_version": "2.1.205",
+      "output_tokens": 58310,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 215377.3686,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.37395495,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/hf-model-inference",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 176374,
+      "input_tokens": 198896,
+      "agent_version": "2.1.205",
+      "output_tokens": 15777,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 95660.0864,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.6156893,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/install-windows-3.11",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 8283111,
+      "input_tokens": 8503502,
+      "agent_version": "2.1.205",
+      "output_tokens": 86984,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 596092.2544,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.3160581,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/kv-store-grpc",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 199677,
+      "input_tokens": 222804,
+      "agent_version": "2.1.205",
+      "output_tokens": 11300,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 65058.9218,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.51720375,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/large-scale-text-editing",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 217835,
+      "input_tokens": 246555,
+      "agent_version": "2.1.205",
+      "output_tokens": 22948,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 205420.1516,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.66265905,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/largest-eigenval",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 324951,
+      "input_tokens": 364479,
+      "agent_version": "2.1.205",
+      "output_tokens": 27802,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 98340.0682,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.83524155,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/llm-inference-batching-scheduler",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 9393473,
+      "input_tokens": 9840436,
+      "agent_version": "2.1.205",
+      "output_tokens": 310366,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1011861.7582,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.2222715,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/log-summary-date-ranges",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 87795,
+      "input_tokens": 103834,
+      "agent_version": "2.1.205",
+      "output_tokens": 9055,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 52491.2628,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.45212,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/mailman",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 13907605,
+      "input_tokens": 14271860,
+      "agent_version": "2.1.205",
+      "output_tokens": 127812,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 593446.5526,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": null,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/make-doom-for-mips",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 31199417,
+      "input_tokens": 31834845,
+      "agent_version": "2.1.205",
+      "output_tokens": 322489,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 985347.6856,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 21.62942625,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/make-mips-interpreter",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 34760170,
+      "input_tokens": 35711474,
+      "agent_version": "2.1.205",
+      "output_tokens": 508973,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1498010.0658,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.471672,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/mcmc-sampling-stan",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 5186165,
+      "input_tokens": 5478827,
+      "agent_version": "2.1.205",
+      "output_tokens": 54835,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1182831.2592,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.4059128,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/merge-diff-arc-agi-task",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1106581,
+      "input_tokens": 1185542,
+      "agent_version": "2.1.205",
+      "output_tokens": 51867,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 197383.9452,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.58148595,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/model-extraction-relu-logits",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 3633946,
+      "input_tokens": 3864673,
+      "agent_version": "2.1.205",
+      "output_tokens": 191230,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 571567.1918,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.2931903,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/modernize-scientific-stack",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 92846,
+      "input_tokens": 115071,
+      "agent_version": "2.1.205",
+      "output_tokens": 12135,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 66208.0696,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.5444477,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/mteb-leaderboard",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 7368534,
+      "input_tokens": 7652154,
+      "agent_version": "2.1.205",
+      "output_tokens": 85024,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1638906.9634,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.35361195,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/mteb-retrieve",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 184679,
+      "input_tokens": 210711,
+      "agent_version": "2.1.205",
+      "output_tokens": 13377,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 207658.8672,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.43347675,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/multi-source-data-merger",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 91940,
+      "input_tokens": 118052,
+      "agent_version": "2.1.205",
+      "output_tokens": 20534,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 77612.1538,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.598986,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/nginx-request-logging",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 436355,
+      "input_tokens": 482304,
+      "agent_version": "2.1.205",
+      "output_tokens": 19725,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 98206.6014,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.41431995,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/openssl-selfsigned-cert",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 153424,
+      "input_tokens": 180070,
+      "agent_version": "2.1.205",
+      "output_tokens": 17895,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 73725.8424,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.79624185,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/overfull-hbox",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4536412,
+      "input_tokens": 4750289,
+      "agent_version": "2.1.205",
+      "output_tokens": 108920,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 445551.0708,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.5090248,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/password-recovery",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 3488045,
+      "input_tokens": 3687192,
+      "agent_version": "2.1.205",
+      "output_tokens": 135535,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 504497.3986,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": null,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/path-tracing",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 27913283,
+      "input_tokens": 28602623,
+      "agent_version": "2.1.205",
+      "output_tokens": 534423,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1848830.1744,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 19.14478125,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/path-tracing-reverse",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 27484435,
+      "input_tokens": 28460411,
+      "agent_version": "2.1.205",
+      "output_tokens": 482665,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1204484.6098,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.5757284,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/polyglot-c-py",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 517438,
+      "input_tokens": 598315,
+      "agent_version": "2.1.205",
+      "output_tokens": 74485,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 253990.2888,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.79964845,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/polyglot-rust-c",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1251521,
+      "input_tokens": 1605463,
+      "agent_version": "2.1.205",
+      "output_tokens": 275364,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 717962.543,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.920697,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/portfolio-optimization",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 452640,
+      "input_tokens": 517115,
+      "agent_version": "2.1.205",
+      "output_tokens": 36213,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 275288.3066,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.0234315,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/protein-assembly",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 0,
+      "agent_version": "2.1.205",
+      "output_tokens": 0,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 39749.9864,
+      "exception_types": [
+        "UnknownApiError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.1577106,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/prove-plus-comm",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 57012,
+      "input_tokens": 64809,
+      "agent_version": "2.1.205",
+      "output_tokens": 7427,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 58335.0712,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.3635826,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/pypi-server",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 228567,
+      "input_tokens": 254428,
+      "agent_version": "2.1.205",
+      "output_tokens": 13208,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 81856.1142,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.29258285,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/pytorch-model-cli",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1262127,
+      "input_tokens": 1345085,
+      "agent_version": "2.1.205",
+      "output_tokens": 40203,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 276781.573,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.12174995,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/pytorch-model-recovery",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 680124,
+      "input_tokens": 753534,
+      "agent_version": "2.1.205",
+      "output_tokens": 42835,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 256245.4846,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.2275244,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/qemu-alpine-ssh",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2780377,
+      "input_tokens": 2910006,
+      "agent_version": "2.1.205",
+      "output_tokens": 71264,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 424522.9262,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.071354,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/qemu-startup",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1025525,
+      "input_tokens": 1097210,
+      "agent_version": "2.1.205",
+      "output_tokens": 33000,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 215542.058,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.18501695,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/query-optimize",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 840539,
+      "input_tokens": 930123,
+      "agent_version": "2.1.205",
+      "output_tokens": 39949,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1830056.9552,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.89630585,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/raman-fitting",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4336952,
+      "input_tokens": 4614418,
+      "agent_version": "2.1.205",
+      "output_tokens": 170331,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 488462.7334,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.2989698,
+      "n_errors": 3,
+      "n_trials": 5,
+      "task_name": "terminal-bench/regex-chess",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 30427655,
+      "input_tokens": 31104649,
+      "agent_version": "2.1.205",
+      "output_tokens": 557687,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 3201013.6994,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.98977815,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/regex-log",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 286548,
+      "input_tokens": 340616,
+      "agent_version": "2.1.205",
+      "output_tokens": 46741,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 171654.3002,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.4566006,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/reshard-c4-data",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2717002,
+      "input_tokens": 2896021,
+      "agent_version": "2.1.205",
+      "output_tokens": 131408,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 611937.0066,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.1046911,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/rstan-to-pystan",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2434002,
+      "input_tokens": 2582475,
+      "agent_version": "2.1.205",
+      "output_tokens": 54624,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 548926.579,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.8766734,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/sam-cell-seg",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 6024928,
+      "input_tokens": 6300425,
+      "agent_version": "2.1.205",
+      "output_tokens": 135779,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 623720.2686,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.8576998,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/sanitize-git-repo",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 4433756,
+      "input_tokens": 4679605,
+      "agent_version": "2.1.205",
+      "output_tokens": 40388,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 166062.5636,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 11.18598375,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/schemelike-metacircular-eval",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 20411644,
+      "input_tokens": 21413252,
+      "agent_version": "2.1.205",
+      "output_tokens": 523849,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 1879631.5312,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.47284985,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/sparql-university",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1016677,
+      "input_tokens": 1124063,
+      "agent_version": "2.1.205",
+      "output_tokens": 51017,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 205880.1644,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.8745033,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/sqlite-db-truncate",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 245056,
+      "input_tokens": 307369,
+      "agent_version": "2.1.205",
+      "output_tokens": 37825,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 122062.297,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.04007645,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/sqlite-with-gcov",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1099794,
+      "input_tokens": 1193766,
+      "agent_version": "2.1.205",
+      "output_tokens": 23860,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 206093.8634,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.49624785,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/torch-pipeline-parallelism",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2986552,
+      "input_tokens": 3176450,
+      "agent_version": "2.1.205",
+      "output_tokens": 125892,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 634648.5262,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.9667814,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/torch-tensor-parallelism",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1038588,
+      "input_tokens": 1156251,
+      "agent_version": "2.1.205",
+      "output_tokens": 80938,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 504179.6076,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.7628397,
+      "n_errors": 4,
+      "n_trials": 5,
+      "task_name": "terminal-bench/train-fasttext",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 7119665,
+      "input_tokens": 7438576,
+      "agent_version": "2.1.205",
+      "output_tokens": 105044,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 3608169.3754,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.3802676,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/tune-mjcf",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 1315652,
+      "input_tokens": 1415232,
+      "agent_version": "2.1.205",
+      "output_tokens": 57242,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 517513.7148,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 8.4187767,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/video-processing",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 10494144,
+      "input_tokens": 10938639,
+      "agent_version": "2.1.205",
+      "output_tokens": 240265,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 708236.8206,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.46006065,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/vulnerable-secret",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 219038,
+      "input_tokens": 268290,
+      "agent_version": "2.1.205",
+      "output_tokens": 13981,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 72741.4164,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 23.5526376,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/winning-avg-corewars",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 96460834,
+      "input_tokens": 97694484,
+      "agent_version": "2.1.205",
+      "output_tokens": 871119,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2824328.3926,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.68240545,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/write-compressor",
+      "agent_name": "claude-code",
+      "model_name": "claude-sonnet-5",
+      "n_completed": 5,
+      "cache_tokens": 2874574,
+      "input_tokens": 3165056,
+      "agent_version": "2.1.205",
+      "output_tokens": 248723,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 641410.1038,
+      "exception_types": []
+    }
+  ],
+  "total": 89,
+  "page_size": 100,
+  "total_pages": 1
+}

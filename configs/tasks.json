@@ -1,0 +1,154 @@
+{
+  "dataset": "terminal-bench/terminal-bench-2-1",
+  "seed": 20261111,
+  "primary": [
+    "compile-compcert",
+    "install-windows-3.11",
+    "mteb-retrieve",
+    "extract-elf",
+    "model-extraction-relu-logits",
+    "path-tracing",
+    "extract-moves-from-video",
+    "chess-best-move",
+    "custom-memory-heap-crash",
+    "pytorch-model-cli",
+    "query-optimize",
+    "sanitize-git-repo",
+    "video-processing",
+    "qemu-startup",
+    "cancel-async-tasks",
+    "configure-git-webserver",
+    "db-wal-recovery",
+    "dna-assembly",
+    "gpt2-codegolf",
+    "llm-inference-batching-scheduler"
+  ],
+  "sanity": [
+    "feal-linear-cryptanalysis",
+    "git-multibranch",
+    "log-summary-date-ranges",
+    "mteb-leaderboard"
+  ],
+  "reference_rewards": {
+    "compile-compcert": {
+      "opus48": 0.4,
+      "fable5": 0.4,
+      "sonnet5": 0.6
+    },
+    "install-windows-3.11": {
+      "opus48": 0.4,
+      "fable5": 0.8,
+      "sonnet5": 0.6
+    },
+    "mteb-retrieve": {
+      "opus48": 0.4,
+      "fable5": 0.8,
+      "sonnet5": 0.4
+    },
+    "extract-elf": {
+      "opus48": 0.6,
+      "fable5": 0.2,
+      "sonnet5": 0.8
+    },
+    "model-extraction-relu-logits": {
+      "opus48": 0.2,
+      "fable5": 0.6,
+      "sonnet5": 0.2
+    },
+    "path-tracing": {
+      "opus48": 0.8,
+      "fable5": 0.8,
+      "sonnet5": 0.6
+    },
+    "extract-moves-from-video": {
+      "opus48": 0.2,
+      "fable5": 0.2,
+      "sonnet5": 0.2
+    },
+    "chess-best-move": {
+      "opus48": 0.2,
+      "fable5": 0.8,
+      "sonnet5": 0.8
+    },
+    "custom-memory-heap-crash": {
+      "opus48": 0.4,
+      "fable5": 1.0,
+      "sonnet5": 0.6
+    },
+    "pytorch-model-cli": {
+      "opus48": 0.2,
+      "fable5": 0.8,
+      "sonnet5": 0.8
+    },
+    "query-optimize": {
+      "opus48": 0.0,
+      "fable5": 0.4,
+      "sonnet5": 0.6
+    },
+    "sanitize-git-repo": {
+      "opus48": 1.0,
+      "fable5": 0.6,
+      "sonnet5": 0.6
+    },
+    "video-processing": {
+      "opus48": 0.2,
+      "fable5": 0.8,
+      "sonnet5": 0.2
+    },
+    "qemu-startup": {
+      "opus48": 0.8,
+      "fable5": 0.8,
+      "sonnet5": 0.8
+    },
+    "cancel-async-tasks": {
+      "opus48": 0.6,
+      "fable5": 1.0,
+      "sonnet5": 0.8
+    },
+    "configure-git-webserver": {
+      "opus48": 0.6,
+      "fable5": 0.0,
+      "sonnet5": 0.8
+    },
+    "db-wal-recovery": {
+      "opus48": 0.2,
+      "fable5": 0.4,
+      "sonnet5": 0.0
+    },
+    "dna-assembly": {
+      "opus48": 0.6,
+      "fable5": 0.8,
+      "sonnet5": 1.0
+    },
+    "gpt2-codegolf": {
+      "opus48": 0.4,
+      "fable5": 1.0,
+      "sonnet5": 0.2
+    },
+    "llm-inference-batching-scheduler": {
+      "opus48": 0.8,
+      "fable5": 1.0,
+      "sonnet5": 0.6
+    },
+    "feal-linear-cryptanalysis": {
+      "opus48": 1.0,
+      "fable5": 1.0,
+      "sonnet5": 0.4
+    },
+    "git-multibranch": {
+      "opus48": 1.0,
+      "fable5": 1.0,
+      "sonnet5": 1.0
+    },
+    "log-summary-date-ranges": {
+      "opus48": 1.0,
+      "fable5": 1.0,
+      "sonnet5": 0.8
+    },
+    "mteb-leaderboard": {
+      "opus48": 1.0,
+      "fable5": 1.0,
+      "sonnet5": 1.0
+    }
+  }
+}

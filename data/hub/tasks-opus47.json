@@ -1,0 +1,2659 @@
+{
+  "page": 1,
+  "items": [
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.595209,
+      "n_errors": 3,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1154042,
+      "input_tokens": 1339309,
+      "agent_version": "2.1.123",
+      "output_tokens": 347083,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 901676.418,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 13.733652,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 3697024,
+      "input_tokens": 5419380,
+      "agent_version": "0.125.0",
+      "output_tokens": 109112,
+      "model_provider": "openai",
+      "avg_duration_ms": 523493.5578,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.70957125,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 4158,
+      "agent_version": "2.0.0",
+      "output_tokens": 27438,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 962565.7456,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.1301118,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 44879,
+      "input_tokens": 174813,
+      "agent_version": "2.0.0",
+      "output_tokens": 238439,
+      "model_provider": "gemini",
+      "avg_duration_ms": 486798.933,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.349019,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/adaptive-rejection-sampler",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 157925,
+      "agent_version": "2.0.0",
+      "output_tokens": 156511,
+      "model_provider": "openai",
+      "avg_duration_ms": 912022.8142,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.9297515,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 2659543,
+      "input_tokens": 2869258,
+      "agent_version": "2.1.123",
+      "output_tokens": 51577,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 215749.3164,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.553805,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 250240,
+      "input_tokens": 726013,
+      "agent_version": "0.125.0",
+      "output_tokens": 34994,
+      "model_provider": "openai",
+      "avg_duration_ms": 162919.0782,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.26387425,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1085441,
+      "input_tokens": 1220328,
+      "agent_version": "2.0.0",
+      "output_tokens": 75509,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 483479.7664,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.6052476,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 154848,
+      "input_tokens": 342719,
+      "agent_version": "2.0.0",
+      "output_tokens": 99878,
+      "model_provider": "gemini",
+      "avg_duration_ms": 293998.1354,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.569745,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/bn-fit-modify",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 154691,
+      "agent_version": "2.0.0",
+      "output_tokens": 37487,
+      "model_provider": "openai",
+      "avg_duration_ms": 191353.6654,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.173198,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 4742096,
+      "input_tokens": 4962784,
+      "agent_version": "2.1.123",
+      "output_tokens": 136920,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 410539.711,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 15.93826,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 1748480,
+      "input_tokens": 4325816,
+      "agent_version": "0.125.0",
+      "output_tokens": 72578,
+      "model_provider": "openai",
+      "avg_duration_ms": 405338.9766,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.37414425,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 224181,
+      "input_tokens": 287182,
+      "agent_version": "2.0.0",
+      "output_tokens": 275044,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 992248.1244,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.6222808,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 746604,
+      "input_tokens": 1183704,
+      "agent_version": "2.0.0",
+      "output_tokens": 133230,
+      "model_provider": "gemini",
+      "avg_duration_ms": 435209.5962,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.52025,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/break-filter-js-from-html",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 348070,
+      "agent_version": "2.0.0",
+      "output_tokens": 95042,
+      "model_provider": "openai",
+      "avg_duration_ms": 545500.6974,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 16.1189501,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 21494856,
+      "input_tokens": 21949972,
+      "agent_version": "2.1.123",
+      "output_tokens": 96554,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 388018.2514,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 32.242287,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 8333184,
+      "input_tokens": 13584141,
+      "agent_version": "0.125.0",
+      "output_tokens": 60697,
+      "model_provider": "openai",
+      "avg_duration_ms": 374153.96,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.19857525,
+      "n_errors": 3,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 5656883,
+      "input_tokens": 5927263,
+      "agent_version": "2.0.0",
+      "output_tokens": 67656,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 856502.2054,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.2686404,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 455582,
+      "input_tokens": 765410,
+      "agent_version": "2.0.0",
+      "output_tokens": 46489,
+      "model_provider": "gemini",
+      "avg_duration_ms": 268764.1308,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.715923,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-cython-ext",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 808467,
+      "agent_version": "2.0.0",
+      "output_tokens": 68070,
+      "model_provider": "openai",
+      "avg_duration_ms": 660052.6024,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.01529275,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 5512508,
+      "input_tokens": 5726749,
+      "agent_version": "2.1.123",
+      "output_tokens": 36812,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 160648.7682,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 13.658683,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 3683456,
+      "input_tokens": 5796557,
+      "agent_version": "0.125.0",
+      "output_tokens": 41715,
+      "model_provider": "openai",
+      "avg_duration_ms": 231728.289,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.03768175,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1227881,
+      "input_tokens": 1350731,
+      "agent_version": "2.0.0",
+      "output_tokens": 26870,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 274017.2368,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.5963226,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 65173,
+      "input_tokens": 190545,
+      "agent_version": "2.0.0",
+      "output_tokens": 27712,
+      "model_provider": "gemini",
+      "avg_duration_ms": 132812.6202,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.511057,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pmars",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 787589,
+      "agent_version": "2.0.0",
+      "output_tokens": 50820,
+      "model_provider": "openai",
+      "avg_duration_ms": 318179.911,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.593269,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 8362778,
+      "input_tokens": 8652810,
+      "agent_version": "2.1.123",
+      "output_tokens": 46199,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 253869.4016,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 17.424556,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 5049472,
+      "input_tokens": 7768994,
+      "agent_version": "0.125.0",
+      "output_tokens": 43407,
+      "model_provider": "openai",
+      "avg_duration_ms": 273119.932,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.24458175,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 3508901,
+      "input_tokens": 3732796,
+      "agent_version": "2.0.0",
+      "output_tokens": 44152,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 763941.529,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.65889,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 1067000,
+      "input_tokens": 1437557,
+      "agent_version": "2.0.0",
+      "output_tokens": 58698,
+      "model_provider": "gemini",
+      "avg_duration_ms": 383773.0418,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.200484,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/build-pov-ray",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 1045614,
+      "agent_version": "2.0.0",
+      "output_tokens": 50801,
+      "model_provider": "openai",
+      "avg_duration_ms": 349069.7772,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 6.3880775,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 14513274,
+      "input_tokens": 15217634,
+      "agent_version": "2.1.123",
+      "output_tokens": 86487,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2018210.8158,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 76.640475,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 25007360,
+      "input_tokens": 37291797,
+      "agent_version": "0.125.0",
+      "output_tokens": 90487,
+      "model_provider": "openai",
+      "avg_duration_ms": 1127973.6812,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 8.27707075,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 9542844,
+      "input_tokens": 9814026,
+      "agent_version": "2.0.0",
+      "output_tokens": 72915,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2339990.5996,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.8434134,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 2617767,
+      "input_tokens": 3106315,
+      "agent_version": "2.0.0",
+      "output_tokens": 111897,
+      "model_provider": "gemini",
+      "avg_duration_ms": 1608726.8576,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 12.342254,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/caffe-cifar-10",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 2294830,
+      "agent_version": "2.0.0",
+      "output_tokens": 289212,
+      "model_provider": "openai",
+      "avg_duration_ms": 1917250.3228,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.53091575,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1061854,
+      "input_tokens": 1154796,
+      "agent_version": "2.1.123",
+      "output_tokens": 56769,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 167743.9686,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.771254,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 324608,
+      "input_tokens": 687740,
+      "agent_version": "0.125.0",
+      "output_tokens": 26443,
+      "model_provider": "openai",
+      "avg_duration_ms": 135378.7018,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.93259925,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 552166,
+      "input_tokens": 646361,
+      "agent_version": "2.0.0",
+      "output_tokens": 283479,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 728111.9056,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.4925524,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 12172,
+      "input_tokens": 141325,
+      "agent_version": "2.0.0",
+      "output_tokens": 102651,
+      "model_provider": "gemini",
+      "avg_duration_ms": 307444.7256,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.500571,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cancel-async-tasks",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 53737,
+      "agent_version": "2.0.0",
+      "output_tokens": 76777,
+      "model_provider": "openai",
+      "avg_duration_ms": 322814.793,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.802815,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 327109,
+      "input_tokens": 418431,
+      "agent_version": "2.1.123",
+      "output_tokens": 176143,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 607879.541,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.178719,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 427008,
+      "input_tokens": 1096937,
+      "agent_version": "0.125.0",
+      "output_tokens": 20519,
+      "model_provider": "openai",
+      "avg_duration_ms": 151364.3828,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 8.78688125,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 3697130,
+      "input_tokens": 3937132,
+      "agent_version": "2.0.0",
+      "output_tokens": 218527,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 777437.7824,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.4584214,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 358237,
+      "input_tokens": 605570,
+      "agent_version": "2.0.0",
+      "output_tokens": 241009,
+      "model_provider": "gemini",
+      "avg_duration_ms": 563206.8,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.050206,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/chess-best-move",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 262838,
+      "agent_version": "2.0.0",
+      "output_tokens": 79256,
+      "model_provider": "openai",
+      "avg_duration_ms": 363137.4368,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.25
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.62566175,
+      "n_errors": 4,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 765423,
+      "input_tokens": 939359,
+      "agent_version": "2.1.123",
+      "output_tokens": 445337,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2977914.4924,
+      "exception_types": [
+        "AgentTimeoutError",
+        "CancelledError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 9.482307,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 1348224,
+      "input_tokens": 2605845,
+      "agent_version": "0.125.0",
+      "output_tokens": 84003,
+      "model_provider": "openai",
+      "avg_duration_ms": 442897.7418,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.10539875,
+      "n_errors": 5,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 12343,
+      "agent_version": "2.0.0",
+      "output_tokens": 1475,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 3623931.0088,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.9074516,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 97948,
+      "input_tokens": 241555,
+      "agent_version": "2.0.0",
+      "output_tokens": 300054,
+      "model_provider": "gemini",
+      "avg_duration_ms": 623615.772,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.270602,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/circuit-fibsqrt",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 308760,
+      "agent_version": "2.0.0",
+      "output_tokens": 118503,
+      "model_provider": "openai",
+      "avg_duration_ms": 1296589.6612,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 7.8942875,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 4918625,
+      "input_tokens": 5183023,
+      "agent_version": "2.1.123",
+      "output_tokens": 151307,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 383484.126,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 13.117371,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 1295232,
+      "input_tokens": 3305295,
+      "agent_version": "0.125.0",
+      "output_tokens": 80648,
+      "model_provider": "openai",
+      "avg_duration_ms": 367778.0632,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 11.7072375,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 3605720,
+      "input_tokens": 3917448,
+      "agent_version": "2.0.0",
+      "output_tokens": 318648,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 829829.2994,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.449129,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 122015,
+      "input_tokens": 353948,
+      "agent_version": "2.0.0",
+      "output_tokens": 163405,
+      "model_provider": "gemini",
+      "avg_duration_ms": 372681.6126,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.706238,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/cobol-modernization",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 596078,
+      "agent_version": "2.0.0",
+      "output_tokens": 142356,
+      "model_provider": "openai",
+      "avg_duration_ms": 642089.3576,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.63717075,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 439544,
+      "input_tokens": 484916,
+      "agent_version": "2.1.123",
+      "output_tokens": 5355,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 42230.092,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.14589,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 211840,
+      "input_tokens": 385550,
+      "agent_version": "0.125.0",
+      "output_tokens": 5714,
+      "model_provider": "openai",
+      "avg_duration_ms": 49268.252,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.82112325,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 571264,
+      "input_tokens": 669772,
+      "agent_version": "2.0.0",
+      "output_tokens": 37691,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 269351.6492,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.4689972,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 8136,
+      "input_tokens": 123603,
+      "agent_version": "2.0.0",
+      "output_tokens": 19703,
+      "model_provider": "gemini",
+      "avg_duration_ms": 94109.6644,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.850511,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/code-from-image",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 625223,
+      "agent_version": "2.0.0",
+      "output_tokens": 48298,
+      "model_provider": "openai",
+      "avg_duration_ms": 293083.9596,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.328322,
+      "n_errors": 3,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 10182310,
+      "input_tokens": 10666707,
+      "agent_version": "2.1.123",
+      "output_tokens": 66577,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2315069.019,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 113.042017,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 26311424,
+      "input_tokens": 45694739,
+      "agent_version": "0.125.0",
+      "output_tokens": 98991,
+      "model_provider": "openai",
+      "avg_duration_ms": 1853507.7726,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.420743,
+      "n_errors": 4,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 4717916,
+      "input_tokens": 5013768,
+      "agent_version": "2.0.0",
+      "output_tokens": 48954,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 2386425.1804,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.4056884,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 2144832,
+      "input_tokens": 2585597,
+      "agent_version": "2.0.0",
+      "output_tokens": 91266,
+      "model_provider": "gemini",
+      "avg_duration_ms": 1364459.5102,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 9.65165,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/compile-compcert",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 3177910,
+      "agent_version": "2.0.0",
+      "output_tokens": 134022,
+      "model_provider": "openai",
+      "avg_duration_ms": 1774893.563,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.32997975,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 2204157,
+      "input_tokens": 2294630,
+      "agent_version": "2.1.123",
+      "output_tokens": 26519,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 145062.9222,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 12.234931,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 4038912,
+      "input_tokens": 5716115,
+      "agent_version": "0.125.0",
+      "output_tokens": 60982,
+      "model_provider": "openai",
+      "avg_duration_ms": 337765.0922,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.35393675,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1843481,
+      "input_tokens": 2008812,
+      "agent_version": "2.0.0",
+      "output_tokens": 56548,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 350554.24,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.1559594,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 32497,
+      "input_tokens": 201885,
+      "agent_version": "2.0.0",
+      "output_tokens": 67557,
+      "model_provider": "gemini",
+      "avg_duration_ms": 251601.5978,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.6
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.041641,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/configure-git-webserver",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 261553,
+      "agent_version": "2.0.0",
+      "output_tokens": 111366,
+      "model_provider": "openai",
+      "avg_duration_ms": 576357.7564,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.663855,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 491590,
+      "input_tokens": 579524,
+      "agent_version": "2.1.123",
+      "output_tokens": 34741,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 137922.6036,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.403719,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 260608,
+      "input_tokens": 582547,
+      "agent_version": "0.125.0",
+      "output_tokens": 22124,
+      "model_provider": "openai",
+      "avg_duration_ms": 124745.273,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.31163675,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 74646,
+      "input_tokens": 128003,
+      "agent_version": "2.0.0",
+      "output_tokens": 78142,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 217820.2244,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.0397394,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 8117,
+      "input_tokens": 101223,
+      "agent_version": "2.0.0",
+      "output_tokens": 70992,
+      "model_provider": "gemini",
+      "avg_duration_ms": 180333.9374,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.131676,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/constraints-scheduling",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 50726,
+      "agent_version": "2.0.0",
+      "output_tokens": 30113,
+      "model_provider": "openai",
+      "avg_duration_ms": 171677.154,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.27536875,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1600611,
+      "input_tokens": 1727450,
+      "agent_version": "2.1.123",
+      "output_tokens": 25906,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 133259.4112,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.78253,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 1216000,
+      "input_tokens": 2087238,
+      "agent_version": "0.125.0",
+      "output_tokens": 27278,
+      "model_provider": "openai",
+      "avg_duration_ms": 158429.5592,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.5519805,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 877166,
+      "input_tokens": 1004195,
+      "agent_version": "2.0.0",
+      "output_tokens": 53533,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 471750.2878,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.8150342,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 1247541,
+      "input_tokens": 1727840,
+      "agent_version": "2.0.0",
+      "output_tokens": 133744,
+      "model_provider": "gemini",
+      "avg_duration_ms": 533000.7672,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.345199,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/count-dataset-tokens",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 394637,
+      "agent_version": "2.0.0",
+      "output_tokens": 77529,
+      "model_provider": "openai",
+      "avg_duration_ms": 444834.6828,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.37241375,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 2708405,
+      "input_tokens": 2802301,
+      "agent_version": "2.1.123",
+      "output_tokens": 17261,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 339701.9858,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 10.231038,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 3969536,
+      "input_tokens": 5394570,
+      "agent_version": "0.125.0",
+      "output_tokens": 37370,
+      "model_provider": "openai",
+      "avg_duration_ms": 338563.3316,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.19961175,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 685316,
+      "input_tokens": 753357,
+      "agent_version": "2.0.0",
+      "output_tokens": 18006,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 461630.6638,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.548967,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 327805,
+      "input_tokens": 728776,
+      "agent_version": "2.0.0",
+      "output_tokens": 140122,
+      "model_provider": "gemini",
+      "avg_duration_ms": 672518.543,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 8.173779,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/crack-7z-hash",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 1717905,
+      "agent_version": "2.0.0",
+      "output_tokens": 191889,
+      "model_provider": "openai",
+      "avg_duration_ms": 894647.7286,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 9.76774875,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 9470135,
+      "input_tokens": 9806417,
+      "agent_version": "2.1.123",
+      "output_tokens": 117248,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 419933.6054,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 13.735089,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 3962368,
+      "input_tokens": 6075459,
+      "agent_version": "0.125.0",
+      "output_tokens": 39615,
+      "model_provider": "openai",
+      "avg_duration_ms": 293642.838,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.9166555,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 2427841,
+      "input_tokens": 2610744,
+      "agent_version": "2.0.0",
+      "output_tokens": 102777,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 554255.1014,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.4806786,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 158523,
+      "input_tokens": 402362,
+      "agent_version": "2.0.0",
+      "output_tokens": 80108,
+      "model_provider": "gemini",
+      "avg_duration_ms": 287790.2126,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 2.763677,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/custom-memory-heap-crash",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 511315,
+      "agent_version": "2.0.0",
+      "output_tokens": 56401,
+      "model_provider": "openai",
+      "avg_duration_ms": 370680.264,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.8
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 4.28439375,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 4508160,
+      "input_tokens": 4648638,
+      "agent_version": "2.1.123",
+      "output_tokens": 46100,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 280109.9502,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 15.205591,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 3604992,
+      "input_tokens": 5961251,
+      "agent_version": "0.125.0",
+      "output_tokens": 54060,
+      "model_provider": "openai",
+      "avg_duration_ms": 291570.6858,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 12.04039575,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 13427069,
+      "input_tokens": 13853560,
+      "agent_version": "2.0.0",
+      "output_tokens": 107358,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 785449.8732,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.4
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.8705844,
+      "n_errors": 2,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 725912,
+      "input_tokens": 1060827,
+      "agent_version": "2.0.0",
+      "output_tokens": 254631,
+      "model_provider": "gemini",
+      "avg_duration_ms": 712324.6076,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 5.855183,
+      "n_errors": 1,
+      "n_trials": 5,
+      "task_name": "terminal-bench/db-wal-recovery",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 1353283,
+      "agent_version": "2.0.0",
+      "output_tokens": 131712,
+      "model_provider": "openai",
+      "avg_duration_ms": 693643.7302,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 13.39119925,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "claude-code",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 1949206,
+      "input_tokens": 2389315,
+      "agent_version": "2.1.123",
+      "output_tokens": 386640,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 898565.9754,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 3.13928,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "codex",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 312960,
+      "input_tokens": 737500,
+      "agent_version": "0.125.0",
+      "output_tokens": 28670,
+      "model_provider": "openai",
+      "avg_duration_ms": 136728.9258,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 0.2
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.52898875,
+      "n_errors": 4,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "terminus-2",
+      "model_name": "claude-opus-4-7",
+      "n_completed": 5,
+      "cache_tokens": 4545,
+      "input_tokens": 11651,
+      "agent_version": "2.0.0",
+      "output_tokens": 59365,
+      "model_provider": "anthropic",
+      "avg_duration_ms": 3498337.392,
+      "exception_types": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 0.93699,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "terminus-2",
+      "model_name": "gemini-3-pro-preview",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 76569,
+      "agent_version": "2.0.0",
+      "output_tokens": 65321,
+      "model_provider": "gemini",
+      "avg_duration_ms": 163925.3456,
+      "exception_types": []
+    },
+    {
+      "evals": {
+        "reward": {
+          "metrics": [
+            {
+              "reward": 1.0
+            }
+          ]
+        }
+      },
+      "source": null,
+      "cost_usd": 1.733805,
+      "n_errors": 0,
+      "n_trials": 5,
+      "task_name": "terminal-bench/distribution-search",
+      "agent_name": "terminus-2",
+      "model_name": "gpt-5.5",
+      "n_completed": 5,
+      "cache_tokens": 0,
+      "input_tokens": 66423,
+      "agent_version": "2.0.0",
+      "output_tokens": 49027,
+      "model_provider": "openai",
+      "avg_duration_ms": 213447.27,
+      "exception_types": []
+    }
+  ],
+  "total": 445,
+  "page_size": 100,
+  "total_pages": 5
+}
