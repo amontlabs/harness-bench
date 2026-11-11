@@ -32,6 +32,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("phase", choices=["calibration", "main", "main-big", "rerun"])
     parser.add_argument("--tasks", nargs="*", default=[], help="task names, for rerun")
+    parser.add_argument("--concurrency", type=int, help="override the phase's default")
     args = parser.parse_args()
 
     tasks = json.loads((ROOT / "configs/tasks.json").read_text())
@@ -45,6 +46,7 @@ def main() -> None:
     }[args.phase]
     if not names:
         raise SystemExit("no tasks")
+    concurrency = args.concurrency or concurrency
     missing = [n for n in names if n not in digests]
     if missing:
         raise SystemExit(f"no pinned digest for {missing}")

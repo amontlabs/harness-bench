@@ -139,3 +139,18 @@ about 30% or more should be clear. Tasks run up to an hour, but long-horizon beh
 (context compaction, very long sessions) is barely exercised. Selection uses Claude Code
 results only, which could favour tasks where Claude Code is unstable; the sanity tasks
 check the opposite case.
+
+## Amendment 1 (2026-11-11, before any counted trial)
+
+The first calibration run, on an AMD Ryzen 7 2700X host with 15 GB of RAM, was stopped
+after one finished trial (nanocode, compile-compcert, reward 1.0) to move to a larger
+host, and is discarded. Its spend (about $0.30 recorded, at most about $0.60 more in a
+Claude Code trial killed before its logs were copied out) is taken off the cap: the
+remaining phases run with a $98 total cap.
+
+All phases now run on a Google Cloud n2-custom-12-98304 VM (12 vCPU, 96 GB, nested
+virtualization, europe-west1-b), inside the same microsandbox VM image with 11 vCPU and
+88 GB. With that memory the 8 GB tasks no longer need to run alone. Concurrency:
+calibration 4, main 6, main-big 4. Everything else is unchanged. The budget guard also
+prices running trials from inside their containers (see the budget-guard fix commit), since Harbor copies
+agent logs out only when a trial ends.

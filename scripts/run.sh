@@ -10,6 +10,7 @@
 # token (from `claude setup-token`) is read from ~/.bench-token (mode 600) and copied
 # into the VM as a file, so it never appears on a command line. Both arms use it.
 #
+# BENCH_CONCURRENCY overrides the phase's number of concurrent trials (see PROTOCOL.md).
 # BENCH_CAP (default 100) is the total API-equivalent budget across all tb21-* jobs; the
 # guard prices every trial (running ones included) and stops Harbor BENCH_MARGIN
 # (default 6) dollars below the cap. If the guard itself fails, Harbor is stopped.
@@ -38,7 +39,7 @@ msb exec "$NAME" -- sh -c "
   # A previous job of the same name must be renamed to jobs/tb21-archived-<...> (still
   # matched by the budget guard, so its spend stays counted), not moved out of jobs/.
   test ! -e jobs/$JOB || { echo 'jobs/$JOB exists; rename it to jobs/tb21-archived-<name> first' >&2; exit 1; }
-  .venv/bin/python scripts/make_job.py $MAKE_ARGS || exit 1
+  .venv/bin/python scripts/make_job.py $MAKE_ARGS ${BENCH_CONCURRENCY:+--concurrency $BENCH_CONCURRENCY} || exit 1
   sed -i 's/\"job_name\": \"tb21-[^\"]*\"/\"job_name\": \"$JOB\"/' configs/job-${MAKE_ARGS%% *}.json
   # Containers killed for memory (cgroup) and kernel OOM kills in the VM are logged.
   dmesg -c >/dev/null 2>&1 || true   # start this job's kernel log clean
